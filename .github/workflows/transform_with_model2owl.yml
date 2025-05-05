@@ -175,11 +175,15 @@ jobs:
             make owl-restrictions \
               XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_OWL \
-              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
+              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
+              CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL
+            cat /home/runner/work/model2owl-boilerplate/model2owl-boilerplate/model2owl/.temp/catalog-shapes.xml
             make shacl \
               XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_SHACL \
-              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
+              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
+              CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL \
+              RESTR_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL
 
             echo "+++++++++++++++++transform to turtle++++++++++++++++++++++++++++"
             echo $(ls ../${OUTPUT_PATH_OWL}*.rdf)

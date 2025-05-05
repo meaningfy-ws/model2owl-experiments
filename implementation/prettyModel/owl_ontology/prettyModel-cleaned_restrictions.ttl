@@ -75,10 +75,10 @@ core-res:nickName a owl:FunctionalProperty ;
 core-res:AssocClass1 a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ],
+            owl:onProperty core-res:date ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:date ] .
+            owl:onProperty core-res:name ] .
 
 core-res:Cycle rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( [ a owl:Restriction ;
@@ -112,19 +112,19 @@ core-res:name a owl:FunctionalProperty ;
 core-res:Vehicle a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:nickName ],
-        [ a owl:Restriction ;
-            owl:cardinality 1 ;
             owl:onProperty core-res:name ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:engravedID ] .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
+            owl:onProperty core-res:engravedID ],
+        [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:nickName ] .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:Bicycle core-res:Monocycle ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:BoringWheel core-res:FancyWheel ) .

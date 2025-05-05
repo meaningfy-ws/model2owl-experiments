@@ -3,9 +3,7 @@ on:
   push:
     branches:
       - "**"
-    paths:
-      - "implementation/demo_ontology/xmi_conceptual_model/demo_ontology_CM.xml"
-      - "implementation/demo_ontology_module/xmi_conceptual_model/demo_ontology_module_CM.xml"
+
 jobs:
   report_and_glossary:
     runs-on: ubuntu-latest
@@ -18,7 +16,7 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone https://github.com/OP-TED/model2owl.git
+          git clone --branch feature/M2O3-7 https://github.com/meaningfy-ws/model2owl.git
           pwd
 
       - name: get-saxon
@@ -132,11 +130,14 @@ jobs:
 
       - name: get model2owl
         run: |
-          git clone https://github.com/OP-TED/model2owl.git
+          git clone --branch feature/M2O3-7 https://github.com/meaningfy-ws/model2owl.git
           pwd
 
       - name: get-saxon
         run: pwd && cd model2owl && make get-saxon
+
+      - name: get-robot
+        run: pwd && cd model2owl && make get-robot
 
       - name: get-rdflib
         run: cd model2owl && make create-virtual-env && make get-rdflib
@@ -174,11 +175,15 @@ jobs:
             make owl-restrictions \
               XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_OWL \
-              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
+              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
+              CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL
+            cat /home/runner/work/model2owl-boilerplate/model2owl-boilerplate/model2owl/.temp/catalog-shapes.xml
             make shacl \
               XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_SHACL \
-              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
+              NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
+              CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL \
+              RESTR_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL
 
             echo "+++++++++++++++++transform to turtle++++++++++++++++++++++++++++"
             echo $(ls ../${OUTPUT_PATH_OWL}*.rdf)

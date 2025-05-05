@@ -33,8 +33,8 @@ jobs:
             cat model2owl/config-proxy.xsl
 
 
-            CM_FILE_NAME=$(echo "${implementation}_CM.xml")
-            CM_FILE_PATH=$(echo "implementation/$implementation/xmi_conceptual_model/${CM_FILE_NAME}")
+            CM_FILE_DIR=$(realpath "implementation/${implementation}/xmi_conceptual_model")
+            CM_FILE_PATH=$(find $CM_FILE_DIR -type f | head -n 1)
             NS_XML_FILE_PATH="../implementation/${implementation}/model2owl-config/namespaces.xml"
 
             OUTPUT_CONVENTION_REPORT_PATH=$(echo "implementation/$implementation/conventions_report/")
@@ -51,11 +51,11 @@ jobs:
             cd model2owl
             ls -la
             make generate-convention-report \
-              XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
+              XMI_INPUT_FILE_PATH=$CM_FILE_PATH \
               OUTPUT_CONVENTION_REPORT_PATH=../$OUTPUT_CONVENTION_REPORT_PATH \
               NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
             make generate-glossary \
-              XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
+              XMI_INPUT_FILE_PATH=$CM_FILE_PATH \
               OUTPUT_GLOSSARY_PATH=../$OUTPUT_GLOSSARY_PATH \
               NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
 
@@ -152,8 +152,8 @@ jobs:
             cat model2owl/config-proxy.xsl
 
 
-            CM_FILE_NAME=$(echo "${implementation}_CM.xml")
-            CM_FILE_PATH=$(echo "implementation/$implementation/xmi_conceptual_model/${CM_FILE_NAME}")
+            CM_FILE_DIR=$(realpath "implementation/${implementation}/xmi_conceptual_model")
+            CM_FILE_PATH=$(find $CM_FILE_DIR -type f | head -n 1)
             NS_XML_FILE_PATH="../implementation/${implementation}/model2owl-config/namespaces.xml"
             OUTPUT_PATH_OWL=$(echo "implementation/$implementation/owl_ontology/")
             OUTPUT_PATH_SHACL=$(echo "implementation/$implementation/shacl_shapes/")
@@ -169,17 +169,17 @@ jobs:
             ls -la
             echo "+++++++++++++++++transform to rdf++++++++++++++++++++++++++++"
             make owl-core \
-              XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
+              XMI_INPUT_FILE_PATH=$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_OWL \
               NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH}
             make owl-restrictions \
-              XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
+              XMI_INPUT_FILE_PATH=$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_OWL \
               NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
               CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL
             cat /home/runner/work/model2owl-boilerplate/model2owl-boilerplate/model2owl/.temp/catalog-shapes.xml
             make shacl \
-              XMI_INPUT_FILE_PATH=../$CM_FILE_PATH \
+              XMI_INPUT_FILE_PATH=$CM_FILE_PATH \
               OUTPUT_FOLDER_PATH=../$OUTPUT_PATH_SHACL \
               NAMESPACES_USER_XML_FILE_PATH=${NS_XML_FILE_PATH} \
               CORE_OWL_FOLDER_PATH=../$OUTPUT_PATH_OWL \

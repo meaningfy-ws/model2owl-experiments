@@ -7,29 +7,6 @@
    xmlns:sh="http://www.w3.org/ns/shacl#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdfs:label>Vehicle</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-engravedID"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-name"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-nickName"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Car">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Car"/>
-    <rdfs:label>Car</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Cycle-colour">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-    <sh:path rdf:resource="http://www.example.org/testmodels#colour"/>
-    <sh:name>colour</sh:name>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sh:maxCount>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#core-shape">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
@@ -53,12 +30,23 @@
     <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
     <dcterms:license>nah, for testing.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#RentalCompany">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Wheel">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
-    <rdfs:label>Rental Company</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Wheel"/>
+    <rdfs:label>Wheel</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#RentalCompany-name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Contractor">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Contractor"/>
+    <rdfs:label>Contractor</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Car">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Car"/>
+    <rdfs:label>Car</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#RentalCompany-name">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
@@ -68,17 +56,49 @@
     <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
     <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#PartsClass">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#RentalCompany">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#PartsClass"/>
-    <rdfs:label>Parts Class</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
+    <rdfs:label>Rental Company</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#RentalCompany-name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#YetAnotherC">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#YetAnotherC"/>
+    <rdfs:label>Yet Another C</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#SomeOtherClass">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    <rdfs:label>Some Other Class</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+    <rdfs:label>Vehicle</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-engravedID"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-name"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Vehicle-nickName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Bicycle">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Bicycle"/>
+    <rdfs:label>Bicycle</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-engravedID">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+    <sh:path rdf:resource="http://www.example.org/testmodels#engravedID"/>
+    <sh:name>engraved ID</sh:name>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Cycle-colour">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+    <sh:path rdf:resource="http://www.example.org/testmodels#colour"/>
+    <sh:name>colour</sh:name>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sh:maxCount>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Monocycle">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
@@ -86,11 +106,56 @@
     <rdfs:label>Monocycle</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Bicycle">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#ClassForQualAssoc">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Bicycle"/>
-    <rdfs:label>Bicycle</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
+    <rdfs:label>Class For Qual Assoc</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-nickName">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+    <sh:path rdf:resource="http://www.example.org/testmodels#nickName"/>
+    <sh:name>nick Name</sh:name>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#AssocClass1">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#AssocClass1"/>
+    <rdfs:label>Assoc Class1</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#AssocClass1-date"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#AssocClass1-name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#SomeOtherClass">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
+    <rdfs:label>Some Other Class</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#AssocClass1-name">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+    <sh:path rdf:resource="http://www.example.org/testmodels#name"/>
+    <sh:name>name</sh:name>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-name">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
+    <sh:path rdf:resource="http://www.example.org/testmodels#name"/>
+    <sh:name>name</sh:name>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Cycle">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Cycle"/>
+    <rdfs:label>Cycle</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
+    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Cycle-colour"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#FancyWheel">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
@@ -104,81 +169,16 @@
     <rdfs:label>Boat</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-nickName">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-    <sh:path rdf:resource="http://www.example.org/testmodels#nickName"/>
-    <sh:name>nick Name</sh:name>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-engravedID">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-    <sh:path rdf:resource="http://www.example.org/testmodels#engravedID"/>
-    <sh:name>engraved ID</sh:name>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#ClassForQualAssoc">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
-    <rdfs:label>Class For Qual Assoc</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#AssocClass1-name">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-    <sh:path rdf:resource="http://www.example.org/testmodels#name"/>
-    <sh:name>name</sh:name>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Insurance">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
     <sh:targetClass rdf:resource="http://www.example.org/testmodels#Insurance"/>
     <rdfs:label>Insurance</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#YetAnotherC">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#PartsClass">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#YetAnotherC"/>
-    <rdfs:label>Yet Another C</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#BoringWheel">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#BoringWheel"/>
-    <rdfs:label>Boring Wheel</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Vehicle-name">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#PropertyShape"/>
-    <sh:path rdf:resource="http://www.example.org/testmodels#name"/>
-    <sh:name>name</sh:name>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#AssocClass1">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#AssocClass1"/>
-    <rdfs:label>Assoc Class1</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#AssocClass1-date"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#AssocClass1-name"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Cycle">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Cycle"/>
-    <rdfs:label>Cycle</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-    <sh:property rdf:resource="http://www.example.org/testmodel/data-shape#Cycle-colour"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Wheel">
-    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Wheel"/>
-    <rdfs:label>Wheel</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#PartsClass"/>
+    <rdfs:label>Parts Class</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#AssocClass1-date">
@@ -189,10 +189,10 @@
     <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
     <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#Contractor">
+  <rdf:Description rdf:about="http://www.example.org/testmodel/data-shape#BoringWheel">
     <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-    <sh:targetClass rdf:resource="http://www.example.org/testmodels#Contractor"/>
-    <rdfs:label>Contractor</rdfs:label>
+    <sh:targetClass rdf:resource="http://www.example.org/testmodels#BoringWheel"/>
+    <rdfs:label>Boring Wheel</rdfs:label>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
   </rdf:Description>
 </rdf:RDF>

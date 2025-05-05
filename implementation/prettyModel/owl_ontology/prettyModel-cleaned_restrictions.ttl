@@ -75,10 +75,10 @@ core-res:nickName a owl:FunctionalProperty ;
 core-res:AssocClass1 a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:date ],
+            owl:onProperty core-res:name ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ] .
+            owl:onProperty core-res:date ] .
 
 core-res:Cycle rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( [ a owl:Restriction ;
@@ -121,11 +121,11 @@ core-res:Vehicle a owl:Class ;
             owl:onProperty core-res:engravedID ] .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:BoringWheel core-res:FancyWheel ) .
+    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:Bicycle core-res:Monocycle ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
+    owl:members ( core-res:BoringWheel core-res:FancyWheel ) .
 

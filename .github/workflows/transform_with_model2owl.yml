@@ -71,11 +71,11 @@ jobs:
           mkdir -p merge-xmis
           for implementation in "${AVAILABLE_IMPLEMENTATIONS[@]}"
           do
-            cp ../implementation/$implementation/xmi_conceptual_model/*_CM.xml merge-xmis
+            cp ../implementation/$implementation/xmi_conceptual_model/* merge-xmis
           done
           ls merge-xmis
 
-          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=merge-xmis/demo_ontology_CM.xml
+          make merge-xmi FIRST_XMI_TO_BE_MERGED_FILE_PATH=$(find merge-xmis -type f | sort | head -n 1)
 
           echo "merged XMI file"
           ls output/combined-xmi

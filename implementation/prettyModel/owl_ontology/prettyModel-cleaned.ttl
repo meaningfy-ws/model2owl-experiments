@@ -1,0 +1,170 @@
+@prefix core-res: <http://www.example.org/testmodels#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+core-res:AssocClass1 a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Assoc Class1"@en .
+
+core-res:Bicycle a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Cycle ;
+    skos:prefLabel "Bicycle"@en .
+
+core-res:Boat a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Vehicle ;
+    skos:prefLabel "Boat"@en .
+
+core-res:BoringWheel a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Wheel ;
+    skos:prefLabel "Boring Wheel"@en .
+
+core-res:Car a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Vehicle ;
+    skos:prefLabel "Car"@en .
+
+core-res:ClassForQualAssoc a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Class For Qual Assoc"@en .
+
+core-res:Contractor a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Contractor"@en .
+
+core-res:FancyWheel a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Wheel ;
+    skos:prefLabel "Fancy Wheel"@en .
+
+core-res:Insurance a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Insurance"@en .
+
+core-res:Monocycle a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Cycle ;
+    skos:prefLabel "Monocycle"@en .
+
+core-res:PartsClass a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Parts Class"@en .
+
+core-res:RentalCompany a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Rental Company"@en .
+
+core-res:SomeOtherClass a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Some Other Class"@en .
+
+core-res:YetAnotherC a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Yet Another C"@en .
+
+core-res:colour a rdf:Property ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "colour"@en .
+
+core-res:date a rdf:Property ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "date"@en .
+
+core-res:engravedID a rdf:Property ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "engraved ID"@en .
+
+core-res:forSub a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subPropertyOf core-res:hasIns ;
+    skos:prefLabel "for Sub"@en .
+
+core-res:hasInsSub a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subPropertyOf core-res:for ;
+    skos:prefLabel "has Ins Sub"@en .
+
+core-res:lends a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "lends"@en .
+
+core-res:name a rdf:Property ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "name"@en .
+
+core-res:nickName a rdf:Property ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "nick Name"@en .
+
+core-res:ownedby a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "ownedby"@en .
+
+core-res:source a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "source"@en .
+
+core-res:target a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "target"@en .
+
+core-res:toAC a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "to AC"@en .
+
+core-res:toIns a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "to Ins"@en .
+
+core-res:toOtherC a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "to Other C"@en .
+
+core-res:for a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "for"@en .
+
+core-res:hasIns a owl:ObjectProperty ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "has Ins"@en .
+
+core-res:Cycle a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    rdfs:subClassOf core-res:Vehicle ;
+    skos:prefLabel "Cycle"@en .
+
+core-res:Wheel a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Wheel"@en .
+
+core-res:Vehicle a owl:Class ;
+    rdfs:isDefinedBy core-res:core ;
+    skos:prefLabel "Vehicle"@en .
+
+core-res:core a owl:Ontology ;
+    rdfs:label "testing aa bb. ee"@en ;
+    dcterms:created "2025-05-05"^^xsd:date ;
+    dcterms:description "testing aa bb."@en ;
+    dcterms:issued "2025-05-05"^^xsd:date ;
+    dcterms:license "nah, for testing." ;
+    dcterms:publisher "http://www.example.org/" ;
+    dcterms:title "test Core core"@en ;
+    vann:preferredNamespacePrefix "test" ;
+    vann:preferredNamespaceUri "http://www.example.org/testmodels" ;
+    rdfs:comment "This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-05" ;
+    rdfs:seeAlso <https://example1.com>,
+        <https://example2.com> ;
+    owl:imports dcterms:,
+        skos: ;
+    owl:incompatibleWith "0.1" ;
+    owl:priorVersion "http://www.example.org/testmodels#core-0.2" ;
+    owl:versionIRI core-res:core-0.1 ;
+    owl:versionInfo "0.1" .
+

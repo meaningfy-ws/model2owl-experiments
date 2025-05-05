@@ -1,0 +1,131 @@
+@prefix core-res: <http://www.example.org/testmodels#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+core-res:core-withConstraints a owl:Ontology ;
+    rdfs:label "testing aa bb.ff"@en ;
+    dcterms:created "2025-05-05"^^xsd:date ;
+    dcterms:description "testing aa bb. cc"@en ;
+    dcterms:issued "2025-05-05"^^xsd:date ;
+    dcterms:license "nah, for testing." ;
+    dcterms:publisher "http://www.example.org/" ;
+    dcterms:title "test Core restrictions"@en ;
+    vann:preferredNamespacePrefix "test" ;
+    vann:preferredNamespaceUri "http://www.example.org/testmodels" ;
+    rdfs:comment """This version is automatically generated from prettyModel-cleaned.xmi on 
+                2025-05-05""" ;
+    rdfs:seeAlso <https://example1.com>,
+        <https://example2.com> ;
+    owl:imports dcterms:,
+        core-res:core,
+        skos: ;
+    owl:incompatibleWith "0.1" ;
+    owl:priorVersion "http://www.example.org/testmodels#core-withConstraints-0.2" ;
+    owl:versionIRI core-res:core-withConstraints-0.1 ;
+    owl:versionInfo "0.1" .
+
+core-res:for rdf:domain core-res:Insurance ;
+    rdfs:range [ a owl:Class ;
+            owl:unionOf ( core-res:Vehicle core-res:SomeOtherClass ) ] .
+
+core-res:forSub rdfs:domain core-res:Insurance ;
+    rdfs:range core-res:Boat .
+
+core-res:hasIns rdfs:domain [ a owl:Class ;
+            owl:unionOf ( core-res:SomeOtherClass core-res:Vehicle ) ] ;
+    rdfs:range core-res:Insurance .
+
+core-res:hasInsSub rdfs:domain core-res:Boat ;
+    rdfs:range core-res:Insurance .
+
+core-res:lends rdfs:domain core-res:RentalCompany ;
+    rdfs:range core-res:Vehicle .
+
+core-res:ownedby rdfs:domain core-res:Vehicle ;
+    rdfs:range core-res:RentalCompany .
+
+core-res:source rdfs:domain core-res:SomeOtherClass ;
+    rdfs:range core-res:ClassForQualAssoc .
+
+core-res:target rdfs:domain core-res:ClassForQualAssoc ;
+    rdfs:range core-res:SomeOtherClass .
+
+core-res:toAC rdfs:domain core-res:TernaryTest ;
+    rdfs:range core-res:YetAnotherC .
+
+core-res:toIns rdfs:domain core-res:TernaryTest ;
+    rdfs:range core-res:Insurance .
+
+core-res:toOtherC rdfs:domain core-res:TernaryTest ;
+    rdfs:range core-res:SomeOtherClass .
+
+core-res:engravedID a owl:FunctionalProperty ;
+    rdfs:domain core-res:Vehicle ;
+    rdfs:range core-res:int .
+
+core-res:nickName a owl:FunctionalProperty ;
+    rdfs:domain core-res:Vehicle ;
+    rdfs:range core-res:long .
+
+core-res:AssocClass1 a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:date ],
+        [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:name ] .
+
+core-res:Cycle rdfs:subClassOf [ a owl:Class ;
+            owl:intersectionOf ( [ a owl:Restriction ;
+                        owl:minCardinality 1 ;
+                        owl:onProperty core-res:colour ] [ a owl:Restriction ;
+                        owl:maxCardinality 3 ;
+                        owl:onProperty core-res:colour ] ) ] .
+
+core-res:colour rdfs:domain core-res:Cycle ;
+    rdfs:range core-res:short .
+
+core-res:date a owl:FunctionalProperty ;
+    rdfs:domain core-res:AssocClass1 ;
+    rdfs:range core-res:date .
+
+core-res:long a owl:Class .
+
+core-res:short a owl:Class .
+
+core-res:RentalCompany a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:name ] .
+
+core-res:name a owl:FunctionalProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( core-res:AssocClass1 core-res:RentalCompany core-res:Vehicle ) ] ;
+    rdfs:range [ a owl:Class ;
+            owl:unionOf ( core-res:short core-res:long ) ] .
+
+core-res:Vehicle a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:nickName ],
+        [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:name ],
+        [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:engravedID ] .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( core-res:BoringWheel core-res:FancyWheel ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( core-res:Bicycle core-res:Monocycle ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
+

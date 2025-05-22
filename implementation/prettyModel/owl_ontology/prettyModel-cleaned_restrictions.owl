@@ -580,16 +580,6 @@
     
 
 
-    <!-- http://www.example.org/testmodels#engravedID -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#engravedID">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#int"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.example.org/testmodels#for -->
 
     <rdf:Description rdf:about="http://www.example.org/testmodels#for">
@@ -871,6 +861,16 @@
     
 
 
+    <!-- http://www.example.org/testmodels#engravedID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/testmodels#engravedID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.example.org/testmodels#nickName -->
 
     <owl:DatatypeProperty rdf:about="http://www.example.org/testmodels#nickName">
@@ -1122,13 +1122,13 @@
     <owl:Class rdf:about="http://www.example.org/testmodels#Vehicle">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.example.org/testmodels#engravedID"/>
+                <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
+                <owl:onProperty rdf:resource="http://www.example.org/testmodels#engravedID"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1139,12 +1139,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.example.org/testmodels#int -->
-
-    <owl:Class rdf:about="http://www.example.org/testmodels#int"/>
     
 
 

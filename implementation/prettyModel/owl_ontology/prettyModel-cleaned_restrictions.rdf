@@ -6,19 +6,18 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Vehicle">
-    <rdfs:subClassOf rdf:nodeID="N6defb56fc0c643f18bf7b6d15c5e1d1e"/>
-    <rdfs:subClassOf rdf:nodeID="Nb4f15554b1b44fe4b617e329a782ca71"/>
-    <rdfs:subClassOf rdf:nodeID="Nc11a79e3522747bea46f642e696f8467"/>
+  <rdf:Description rdf:nodeID="N717a51edfed949f9995ef6aa2aff85ae">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc474e5a0077f41c6960da4934fac13ed"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#hasInsSub">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Boat"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
+  <rdf:Description rdf:nodeID="N317be8cb887c4313991e2c8d5edaffb0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N407ca1cedb90458685c374d2342a0c3e">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#BoringWheel"/>
-    <rdf:rest rdf:nodeID="Nf857b33bd4864cceb7d00914310b5712"/>
+  <rdf:Description rdf:nodeID="Nfb2c64111a8c47ed81054046e09c668c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nec1b4dc9c8c343ff8f49e71cd61050c4"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#core-withConstraints">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -46,226 +45,227 @@
     <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
     <dcterms:license>nah, for testing.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na3656cd92bd84ed188fcbb6534ef5d21">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Ne96869814e644d63adb6447417674b74"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N008cb8ebdc0d4985a528260340c74f38">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#AssocClass1"/>
-    <rdf:rest rdf:nodeID="Nbf5d9779556d44508d87a0921dac9b30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#lends">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#target">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Naab6790409de4c10854108d321fb45da">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Bicycle"/>
-    <rdf:rest rdf:nodeID="N7bf72174f7ad498198e1716abf91887f"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf3756c36d26a4e9f84ae101ec7d66b16">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Cycle">
-    <rdfs:subClassOf rdf:nodeID="Nc51e4c7eac314aebb53c9f13d994d4d8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4bc5b01847a5440cbbae6db6854e8e68">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N032440eb564a4f198f855879bc6af56d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb4f15554b1b44fe4b617e329a782ca71">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8a64d53f65f24ed6bf6cb500d6e365a6">
-    <rdf:first rdf:nodeID="Nf60f4f0251144b0fa9a4e09f0c5579ea"/>
-    <rdf:rest rdf:nodeID="N90d3b9ebf5bd405087f914e79c8a1b76"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd99ad31aa3504907bf34de681b440e64">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    <rdf:rest rdf:nodeID="N43db940ef9504738bcb0a6c462d795b0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N51903f38e88d4357af99f121b61fe76f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nd99ad31aa3504907bf34de681b440e64"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf60f4f0251144b0fa9a4e09f0c5579ea">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#colour"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf39cd25aaf2b4be38503f240a50f98f5">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N407ca1cedb90458685c374d2342a0c3e"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#nickName">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#AssocClass1">
-    <rdfs:subClassOf rdf:nodeID="N0520b58acc6547e28983baab636027cc"/>
-    <rdfs:subClassOf rdf:nodeID="N2b0883d2f96b406a91847ddc764a310a"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2b0883d2f96b406a91847ddc764a310a">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#name">
-    <rdfs:domain rdf:nodeID="N893fec624dce4d3991fc03b324a36958"/>
-    <rdfs:range rdf:nodeID="Na3656cd92bd84ed188fcbb6534ef5d21"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne96869814e644d63adb6447417674b74">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#short"/>
-    <rdf:rest rdf:nodeID="Nbaba6d0c061f4ea7b7446098d010b689"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N43db940ef9504738bcb0a6c462d795b0">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N032440eb564a4f198f855879bc6af56d">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdf:rest rdf:nodeID="Nf3756c36d26a4e9f84ae101ec7d66b16"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7d529ff266414bc58d41e2d1bcd09ad8">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Boat"/>
-    <rdf:rest rdf:nodeID="N421a51be06f54238b99fb0c3c01171b2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na085de24c67741eb9ded61cbf5777b60">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Naab6790409de4c10854108d321fb45da"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#long">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbf5d9779556d44508d87a0921dac9b30">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
-    <rdf:rest rdf:nodeID="Ndefc592ca1f147f2853c0013726dac6b"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#toIns">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf857b33bd4864cceb7d00914310b5712">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#FancyWheel"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0520b58acc6547e28983baab636027cc">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#date"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#ownedby">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nab1f4ac2d33947a6bf63ba9aea6fda4b">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N77a37541868b40108efe0edd6a698c9b">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N7d529ff266414bc58d41e2d1bcd09ad8"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#for">
-    <rdf:domain rdf:resource="http://www.example.org/testmodels#Insurance"/>
-    <rdfs:range rdf:nodeID="N4bc5b01847a5440cbbae6db6854e8e68"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#RentalCompany">
-    <rdfs:subClassOf rdf:nodeID="Nab1f4ac2d33947a6bf63ba9aea6fda4b"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#engravedID">
     <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#int"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#forSub">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Insurance"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#Boat"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbaba6d0c061f4ea7b7446098d010b689">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#long"/>
+  <rdf:Description rdf:nodeID="Nb896b3ce5d1b4bf9a57c24a756217e7b">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc51e4c7eac314aebb53c9f13d994d4d8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:intersectionOf rdf:nodeID="N8a64d53f65f24ed6bf6cb500d6e365a6"/>
+  <rdf:Description rdf:nodeID="Nec1b4dc9c8c343ff8f49e71cd61050c4">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#short"/>
+    <rdf:rest rdf:nodeID="Nb62913cd02d64d1f9dffba142485d192"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ndefc592ca1f147f2853c0013726dac6b">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6defb56fc0c643f18bf7b6d15c5e1d1e">
+  <rdf:Description rdf:nodeID="Ne202876f66ec4c46b796a4597645bd20">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#engravedID"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
     <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N421a51be06f54238b99fb0c3c01171b2">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Car"/>
-    <rdf:rest rdf:nodeID="N93bb98681dd74f519b72602b245afa50"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4da56538767741b28badbb023d9476e8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://www.example.org/testmodels#colour"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc11a79e3522747bea46f642e696f8467">
+  <rdf:Description rdf:nodeID="N739f6df6559c458f84e6d4a8975b4b41">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://www.example.org/testmodels#nickName"/>
     <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N90d3b9ebf5bd405087f914e79c8a1b76">
-    <rdf:first rdf:nodeID="N4da56538767741b28badbb023d9476e8"/>
+  <rdf:Description rdf:nodeID="Na7e34101e8134157b4cc45b20b0ba46d">
+    <rdf:first rdf:nodeID="Nc2cc0a01965147e8ae304644a81876ce"/>
+    <rdf:rest rdf:nodeID="N1e2599e02c864ab38e02c39253fb4754"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3a617e9bcbb4e33bbeff1e3d03043e7">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#colour">
     <rdfs:domain rdf:resource="http://www.example.org/testmodels#Cycle"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#hasIns">
-    <rdfs:domain rdf:nodeID="N51903f38e88d4357af99f121b61fe76f"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N893fec624dce4d3991fc03b324a36958">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N008cb8ebdc0d4985a528260340c74f38"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#toOtherC">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N93bb98681dd74f519b72602b245afa50">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Cycle"/>
+  <rdf:Description rdf:nodeID="N8170b55cf13641fdb1f6b4b62b379aa1">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Monocycle"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#short">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  <rdf:Description rdf:nodeID="N7f0c3b9517924909ae3317cde2c67ed6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N988fe222ecb44e728ad4950a42e3139e"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#source">
-    <rdfs:domain rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    <rdfs:range rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
+  <rdf:Description rdf:nodeID="N988fe222ecb44e728ad4950a42e3139e">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Bicycle"/>
+    <rdf:rest rdf:nodeID="N8170b55cf13641fdb1f6b4b62b379aa1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd57c953f6354b1c87bc3b90be9b6d8f">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
+    <rdf:rest rdf:nodeID="Nb3a617e9bcbb4e33bbeff1e3d03043e7"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#toAC">
     <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
     <rdfs:range rdf:resource="http://www.example.org/testmodels#YetAnotherC"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N7bf72174f7ad498198e1716abf91887f">
-    <rdf:first rdf:resource="http://www.example.org/testmodels#Monocycle"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:nodeID="N99de9fedd56a4c45a6c14d87aeb5053f">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#BoringWheel"/>
+    <rdf:rest rdf:nodeID="N5efa934bd11e40b18d952d5d20e9e95e"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#date">
     <rdfs:domain rdf:resource="http://www.example.org/testmodels#AssocClass1"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33c1d1daf810463084c0cb58f6330ee0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#colour"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#hasInsSub">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Boat"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#RentalCompany">
+    <rdfs:subClassOf rdf:nodeID="N317be8cb887c4313991e2c8d5edaffb0"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbaaf425843274ff48902e9cdf90490e2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#name"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3a99cdf8d1204ea280ed6450cd9f37e5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ndae6ac3d31294628b8d23d6fda057905"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4291c6ad86fb43ae84b3be8e0ab69c93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#date"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Cycle">
+    <rdfs:subClassOf rdf:nodeID="N401080bde91d4985bf8f4ff0679e3e68"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82c28e453e364eb58fb433eea464cf04">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5c8cbfa408a04697aed1ec663a1d5baf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#lends">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#hasIns">
+    <rdfs:domain rdf:nodeID="N82c28e453e364eb58fb433eea464cf04"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N323c78f836494728aeb6e602770c3336">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Boat"/>
+    <rdf:rest rdf:nodeID="Nf347a9ace3504afe9b683935741ece3a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#toOtherC">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c8cbfa408a04697aed1ec663a1d5baf">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
+    <rdf:rest rdf:nodeID="N43fed605df7d442488fc809e8e448048"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndae6ac3d31294628b8d23d6fda057905">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+    <rdf:rest rdf:nodeID="Nb896b3ce5d1b4bf9a57c24a756217e7b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc2cc0a01965147e8ae304644a81876ce">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#colour"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5efa934bd11e40b18d952d5d20e9e95e">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#FancyWheel"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Vehicle">
+    <rdfs:subClassOf rdf:nodeID="N40d4f6b843354e9ba90346389419f91f"/>
+    <rdfs:subClassOf rdf:nodeID="Ne202876f66ec4c46b796a4597645bd20"/>
+    <rdfs:subClassOf rdf:nodeID="N739f6df6559c458f84e6d4a8975b4b41"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3c3898f54b524b039b8c82f0a0f8f5fb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N323c78f836494728aeb6e602770c3336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#AssocClass1">
+    <rdfs:subClassOf rdf:nodeID="N4291c6ad86fb43ae84b3be8e0ab69c93"/>
+    <rdfs:subClassOf rdf:nodeID="Nbaaf425843274ff48902e9cdf90490e2"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc474e5a0077f41c6960da4934fac13ed">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#AssocClass1"/>
+    <rdf:rest rdf:nodeID="Nfd57c953f6354b1c87bc3b90be9b6d8f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#nickName">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40d4f6b843354e9ba90346389419f91f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.example.org/testmodels#engravedID"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#source">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N92b7bce8f1b34b72a22aae9fcc41afe1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N99de9fedd56a4c45a6c14d87aeb5053f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#name">
+    <rdfs:domain rdf:nodeID="N717a51edfed949f9995ef6aa2aff85ae"/>
+    <rdfs:range rdf:nodeID="Nfb2c64111a8c47ed81054046e09c668c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb62913cd02d64d1f9dffba142485d192">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#long"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#toIns">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na2db93b7af9e48e088884af325dc0c57">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Cycle"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#long">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N401080bde91d4985bf8f4ff0679e3e68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Na7e34101e8134157b4cc45b20b0ba46d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e2599e02c864ab38e02c39253fb4754">
+    <rdf:first rdf:nodeID="N33c1d1daf810463084c0cb58f6330ee0"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#for">
+    <rdf:domain rdf:resource="http://www.example.org/testmodels#Insurance"/>
+    <rdfs:range rdf:nodeID="N3a99cdf8d1204ea280ed6450cd9f37e5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#short">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#forSub">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Insurance"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#Boat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#ownedby">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#RentalCompany"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#target">
+    <rdfs:domain rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
+    <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf347a9ace3504afe9b683935741ece3a">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Car"/>
+    <rdf:rest rdf:nodeID="Na2db93b7af9e48e088884af325dc0c57"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43fed605df7d442488fc809e8e448048">
+    <rdf:first rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
 </rdf:RDF>

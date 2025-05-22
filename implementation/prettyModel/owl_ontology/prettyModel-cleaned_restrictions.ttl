@@ -73,7 +73,7 @@ core-res:date a owl:FunctionalProperty ;
 
 core-res:engravedID a owl:FunctionalProperty ;
     rdfs:domain core-res:Vehicle ;
-    rdfs:range core-res:int .
+    rdfs:range xsd:int .
 
 core-res:long a owl:Class .
 
@@ -118,17 +118,17 @@ core-res:Vehicle a owl:Class ;
             owl:onProperty core-res:engravedID ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ],
+            owl:onProperty core-res:nickName ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:nickName ] .
+            owl:onProperty core-res:name ] .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
+    owl:members ( core-res:BoringWheel core-res:FancyWheel ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:Bicycle core-res:Monocycle ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:BoringWheel core-res:FancyWheel ) .
+    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
 

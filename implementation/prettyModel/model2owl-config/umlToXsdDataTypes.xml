@@ -55,6 +55,14 @@
         <to  qname="xsd:integer"/>
     </mapping>
     <mapping>
+        <from  qname="Int"/>
+        <to  qname="xsd:int"/>
+    </mapping>
+    <mapping>
+        <from  qname="int"/>
+        <to  qname="xsd:int"/>
+    </mapping>
+    <mapping>
         <from  qname="Char"/>
         <to  qname="xsd:string"/>
     </mapping>

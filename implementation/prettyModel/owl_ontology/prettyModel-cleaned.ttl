@@ -115,18 +115,6 @@ core-res:target a owl:ObjectProperty ;
     rdfs:isDefinedBy core-res:core ;
     skos:prefLabel "target"@en .
 
-core-res:toAC a owl:ObjectProperty ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "to AC"@en .
-
-core-res:toIns a owl:ObjectProperty ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "to Ins"@en .
-
-core-res:toOtherC a owl:ObjectProperty ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "to Other C"@en .
-
 core-res:for a owl:ObjectProperty ;
     rdfs:isDefinedBy core-res:core ;
     skos:prefLabel "for"@en .

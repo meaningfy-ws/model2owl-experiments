@@ -773,33 +773,6 @@
     
 
 
-    <!-- http://www.example.org/testmodels#toAC -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#toAC">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">to AC</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.example.org/testmodels#toIns -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#toIns">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">to Ins</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.example.org/testmodels#toOtherC -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#toOtherC">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">to Other C</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

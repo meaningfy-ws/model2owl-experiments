@@ -730,33 +730,6 @@
     
 
 
-    <!-- http://www.example.org/testmodels#toAC -->
-
-    <rdf:Description rdf:about="http://www.example.org/testmodels#toAC">
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#YetAnotherC"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.example.org/testmodels#toIns -->
-
-    <rdf:Description rdf:about="http://www.example.org/testmodels#toIns">
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#Insurance"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.example.org/testmodels#toOtherC -->
-
-    <rdf:Description rdf:about="http://www.example.org/testmodels#toOtherC">
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#TernaryTest"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    </rdf:Description>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1109,12 +1082,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.example.org/testmodels#TernaryTest -->
-
-    <owl:Class rdf:about="http://www.example.org/testmodels#TernaryTest"/>
     
 
 

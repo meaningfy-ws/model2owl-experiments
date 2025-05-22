@@ -9,16 +9,19 @@
 
 core-res:core-withConstraints a owl:Ontology ;
     rdfs:label "testing aa bb.ff"@en ;
-    dcterms:created "2025-05-05"^^xsd:date ;
+    dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:description "testing aa bb. cc"@en ;
-    dcterms:issued "2025-05-05"^^xsd:date ;
+    dcterms:issued "2025-05-22"^^xsd:date ;
     dcterms:license "nah, for testing." ;
     dcterms:publisher "http://www.example.org/" ;
     dcterms:title "test Core restrictions"@en ;
     vann:preferredNamespacePrefix "test" ;
     vann:preferredNamespaceUri "http://www.example.org/testmodels" ;
-    rdfs:comment """This version is automatically generated from prettyModel-cleaned.xmi on 
-                2025-05-05""" ;
+    rdfs:comment """
+                This version is automatically generated from
+                prettyModel-cleaned.xmi
+                on
+                2025-05-22""" ;
     rdfs:seeAlso <https://example1.com>,
         <https://example2.com> ;
     owl:imports dcterms:,
@@ -75,10 +78,10 @@ core-res:nickName a owl:FunctionalProperty ;
 core-res:AssocClass1 a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:date ],
+            owl:onProperty core-res:name ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ] .
+            owl:onProperty core-res:date ] .
 
 core-res:Cycle rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( [ a owl:Restriction ;
@@ -112,13 +115,13 @@ core-res:name a owl:FunctionalProperty ;
 core-res:Vehicle a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ],
-        [ a owl:Restriction ;
-            owl:cardinality 1 ;
             owl:onProperty core-res:engravedID ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:nickName ] .
+            owl:onProperty core-res:nickName ],
+        [ a owl:Restriction ;
+            owl:cardinality 1 ;
+            owl:onProperty core-res:name ] .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:Bicycle core-res:Monocycle ) .

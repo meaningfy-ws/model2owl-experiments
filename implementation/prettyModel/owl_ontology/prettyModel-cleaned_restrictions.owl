@@ -21,16 +21,19 @@
         <owl:versionIRI rdf:resource="http://www.example.org/testmodels#core-withConstraints-0.1"/>
         <owl:imports rdf:resource="http://www.example.org/testmodels#core"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dct:created>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dct:created>
         <dct:description xml:lang="en">testing aa bb. cc</dct:description>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dct:issued>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dct:issued>
         <dct:license>nah, for testing.</dct:license>
         <dct:publisher>http://www.example.org/</dct:publisher>
         <dct:title xml:lang="en">test Core restrictions</dct:title>
         <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://www.example.org/testmodels</vann:preferredNamespaceUri>
-        <rdfs:comment>This version is automatically generated from prettyModel-cleaned.xmi on 
-                2025-05-05</rdfs:comment>
+        <rdfs:comment>
+                This version is automatically generated from
+                prettyModel-cleaned.xmi
+                on
+                2025-05-22</rdfs:comment>
         <rdfs:label xml:lang="en">testing aa bb.ff</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://example1.com"/>
         <rdfs:seeAlso rdf:resource="https://example2.com"/>

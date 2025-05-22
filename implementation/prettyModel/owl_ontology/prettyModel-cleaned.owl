@@ -26,7 +26,7 @@
         <dct:title xml:lang="en">test Core core</dct:title>
         <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://www.example.org/testmodels</vann:preferredNamespaceUri>
-        <rdfs:comment>This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-05</rdfs:comment>
+        <rdfs:comment>This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-22</rdfs:comment>
         <rdfs:label xml:lang="en">testing aa bb. ee</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://example1.com"/>
         <rdfs:seeAlso rdf:resource="https://example2.com"/>
@@ -2127,8 +2127,8 @@
     <!-- http://www.example.org/testmodels#core -->
 
     <owl:NamedIndividual rdf:about="http://www.example.org/testmodels#core">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dct:created>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dct:issued>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dct:created>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dct:issued>
     </owl:NamedIndividual>
     
 

@@ -56,7 +56,7 @@
                   Generalisations</em>. Each major section lists model items that need correction of errors
                or consideration of warnings.</p>
             <p>The UML model in file <em>prettyModel-cleaned.xmi</em> 
-               was tested at 09:10 on May 22, 2025.</p>
+               was tested at 13:23 on May 22, 2025.</p>
          </div>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="nomenclature">Nomenclature</h1>
          <h2 xmlns:f="http://https://github.com/costezki/model2owl#" id="classNames">Class names</h2>
@@ -109,9 +109,6 @@
             <li>ppart</li>
             <li>source</li>
             <li>target</li>
-            <li>toAC</li>
-            <li>toIns</li>
-            <li>toOtherC</li>
             <li><a href="#connector-whole">whole (2)</a><ul><em>
                      <li>Contractor -&gt; RentalCompany []</li>
                      <li>Wheel -&gt; Cycle []</li></em></ul>
@@ -473,6 +470,7 @@
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The prefix  is not defined. A prefix must be associated to a namespace URI.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>YetAnotherC is missing a description. All concepts should be defined or described.</dd>
                <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class YetAnotherC has no attributes provided. A class should define some attributes.</dd>
+               <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>The class YetAnotherC is is disconnected. A class should be connected to other elements.</dd>
             </dl>
          </section>
          <h1 class="selector-heading" id="enumerations">Enumerations</h1>
@@ -558,28 +556,6 @@
             <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector SomeOtherClass X Insurance (+hasIns +for) employ invalid direction Unspecified.
                Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
          </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X Insurance (+toIns +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X Insurance (+toIns +) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X SomeOtherClass (+toOtherC +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X SomeOtherClass (+toOtherC +) employ invalid direction
-               Unspecified. Connectors must employ Source-&gt;Destination or Bi-directional directions
-               only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
-         <h2 xmlns:f="http://https://github.com/costezki/model2owl#">TernaryTest X YetAnotherC (+toAC +)</h2>
-         <dl xmlns:f="http://https://github.com/costezki/model2owl#">
-            <dt> Unmet association conventions </dt>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>The connector TernaryTest X YetAnotherC (+toAC +) employ invalid direction Unspecified.
-               Connectors must employ Source-&gt;Destination or Bi-directional directions only.</dd>
-            <dd xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter errors"><i class="fa fa-times-circle error"></i>Associations can be provided only between classes to classes and classes to objects.</dd>
-         </dl>
          <h1 class="selector-heading" id="dependencies">Dependencies</h1>
          <h1 class="selector-heading" id="realisations">Realisations</h1>
          <h1 xmlns:f="http://https://github.com/costezki/model2owl#" id="connectorsUsage">Connectors with multiple usages</h1>
@@ -616,7 +592,6 @@
          <dd xmlns:f="http://https://github.com/costezki/model2owl#" xmlns:svrl="http://purl.oclc.org/dsdl/svrl" class="filter warnings"><i class="fa fa-exclamation-triangle warning"></i>Only Class, Package, Datatype, Enumeration, and Object elements are supported. The
             following element types were found in model and are not supported
             <ul>
-               <li>uml:Association</li>
                <li>uml:ProxyConnector</li>
             </ul>
          </dd>

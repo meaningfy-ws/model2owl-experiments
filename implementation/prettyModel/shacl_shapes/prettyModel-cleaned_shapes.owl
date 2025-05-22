@@ -1853,17 +1853,6 @@
     
 
 
-    <!-- http://www.example.org/testmodel/data-shape#ClassForQualAssoc -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/testmodel/data-shape#ClassForQualAssoc">
-        <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodel/data-shape#core-shape"/>
-        <rdfs:label>Class For Qual Assoc</rdfs:label>
-        <sh:targetClass rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.example.org/testmodel/data-shape#Contractor -->
 
     <owl:NamedIndividual rdf:about="http://www.example.org/testmodel/data-shape#Contractor">

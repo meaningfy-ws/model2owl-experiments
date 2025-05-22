@@ -712,24 +712,6 @@
     
 
 
-    <!-- http://www.example.org/testmodels#source -->
-
-    <rdf:Description rdf:about="http://www.example.org/testmodels#source">
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://www.example.org/testmodels#target -->
-
-    <rdf:Description rdf:about="http://www.example.org/testmodels#target">
-        <rdfs:domain rdf:resource="http://www.example.org/testmodels#ClassForQualAssoc"/>
-        <rdfs:range rdf:resource="http://www.example.org/testmodels#SomeOtherClass"/>
-    </rdf:Description>
-    
-
-
     <!-- http://www.example.org/testmodels#toAC -->
 
     <rdf:Description rdf:about="http://www.example.org/testmodels#toAC">

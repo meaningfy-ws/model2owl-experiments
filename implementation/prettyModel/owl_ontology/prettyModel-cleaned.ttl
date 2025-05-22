@@ -31,10 +31,6 @@ core-res:Car a owl:Class ;
     rdfs:subClassOf core-res:Vehicle ;
     skos:prefLabel "Car"@en .
 
-core-res:ClassForQualAssoc a owl:Class ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "Class For Qual Assoc"@en .
-
 core-res:Contractor a owl:Class ;
     rdfs:isDefinedBy core-res:core ;
     skos:prefLabel "Contractor"@en .
@@ -106,14 +102,6 @@ core-res:nickName a rdf:Property ;
 core-res:ownedby a owl:ObjectProperty ;
     rdfs:isDefinedBy core-res:core ;
     skos:prefLabel "ownedby"@en .
-
-core-res:source a owl:ObjectProperty ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "source"@en .
-
-core-res:target a owl:ObjectProperty ;
-    rdfs:isDefinedBy core-res:core ;
-    skos:prefLabel "target"@en .
 
 core-res:toAC a owl:ObjectProperty ;
     rdfs:isDefinedBy core-res:core ;

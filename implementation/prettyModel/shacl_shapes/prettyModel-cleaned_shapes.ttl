@@ -35,11 +35,6 @@ core-shape:Car a sh:NodeShape ;
     rdfs:isDefinedBy core-shape:core-shape ;
     sh:targetClass core-res:Car .
 
-core-shape:ClassForQualAssoc a sh:NodeShape ;
-    rdfs:label "Class For Qual Assoc" ;
-    rdfs:isDefinedBy core-shape:core-shape ;
-    sh:targetClass core-res:ClassForQualAssoc .
-
 core-shape:Contractor a sh:NodeShape ;
     rdfs:label "Contractor" ;
     rdfs:isDefinedBy core-shape:core-shape ;

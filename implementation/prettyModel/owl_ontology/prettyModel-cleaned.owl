@@ -755,24 +755,6 @@
     
 
 
-    <!-- http://www.example.org/testmodels#source -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#source">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">source</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.example.org/testmodels#target -->
-
-    <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#target">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">target</skos:prefLabel>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.example.org/testmodels#toAC -->
 
     <owl:ObjectProperty rdf:about="http://www.example.org/testmodels#toAC">
@@ -1137,15 +1119,6 @@
         <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
         <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
         <skos:prefLabel xml:lang="en">Car</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.example.org/testmodels#ClassForQualAssoc -->
-
-    <owl:Class rdf:about="http://www.example.org/testmodels#ClassForQualAssoc">
-        <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-        <skos:prefLabel xml:lang="en">Class For Qual Assoc</skos:prefLabel>
     </owl:Class>
     
 

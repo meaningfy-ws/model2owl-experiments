@@ -1,5 +1,5 @@
 <?xml  version='1.0' encoding='windows-1252' ?>
-<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.omg.org/spec/UML/20161101" xmlns:umldi="http://www.omg.org/spec/UML/20161101/UMLDI" xmlns:dc="http://www.omg.org/spec/UML/20161101/UMLDC">
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:umldi="http://www.omg.org/spec/UML/20131001/UMLDI" xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC">
 	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1703"/>
 	<uml:Model xmi:type="uml:Model" name="EA_Model">
 		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_5319A7A3_FDC4_490a_BB28_95CB9D5AAAF2" name="PrettyModel">
@@ -85,7 +85,7 @@
 					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000029__6013_4b15_A5BC_A7F2E43D05E1" value="1"/>
 					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000030__6013_4b15_A5BC_A7F2E43D05E1" value="1"/>
 					<qualifier xmi:type="uml:Property" xmi:id="EAID_E1A5672C_0EA5_4f73_9FA8_C86D6F6A39D0" name="AccType" associationEnd="EAID_srcB53AD6_6013_4b15_A5BC_A7F2E43D05E1" isStatic="true">
-						<type xmi:type="uml:PrimitiveType" href="http://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#String"/>
+						<type xmi:type="uml:PrimitiveType" href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#String"/>
 						<defaultValue xmi:type="uml:LiteralString" xmi:id="EAID_LI000031_0EA5_4f73_9FA8_C86D6F6A39D0" value="onetwothree"/>
 					</qualifier>
 				</ownedEnd>
@@ -227,26 +227,6 @@
 				</ownedAttribute>
 			</packagedElement>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9" name="YetAnotherC"/>
-			<packagedElement xmi:type="uml:Association" xmi:id="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" name="TernaryTest">
-				<memberEnd xmi:idref="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653"/>
-				<memberEnd xmi:idref="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904"/>
-				<memberEnd xmi:idref="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924"/>
-				<ownedEnd xmi:type="uml:Property" xmi:id="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924" name="toAC" association="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<type xmi:idref="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9"/>
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000043__3663_44e6_ACB8_AB0F6426E924" value="0"/>
-					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000044__3663_44e6_ACB8_AB0F6426E924" value="1"/>
-				</ownedEnd>
-				<ownedEnd xmi:type="uml:Property" xmi:id="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904" name="toIns" association="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<type xmi:idref="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000045__D7DA_42fd_A615_86CE558AC904" value="0"/>
-					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000046__D7DA_42fd_A615_86CE558AC904" value="*"/>
-				</ownedEnd>
-				<ownedEnd xmi:type="uml:Property" xmi:id="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653" name="toOtherC" association="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<type xmi:idref="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94"/>
-					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000047__3DB1_4276_8A0C_7D6EDA5BD653" value="1"/>
-					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000048__3DB1_4276_8A0C_7D6EDA5BD653" value="*"/>
-				</ownedEnd>
-			</packagedElement>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_58B50407_565F_498a_9455_70CBB3959506" name="ProxyConnector"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_6C5B9069_8881_44dd_A410_8C8243A9B441" name="ProxyConnector"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_7B7E039F_D692_427b_9D68_C37C82046A08" name="ProxyConnector">
@@ -326,10 +306,6 @@
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_CCF000AB_D9CA_4e48_A5FC_47E52B690A2E" modelElement="EAID_CCD984E7_B6FF_414f_A5FC_47E52B690A2E">
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_D9CA_4e48_A5FC_47E52B690A2E" text="AssocClass1"/>
 				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_D9CA_4e48_A5FC_47E52B690A2E" x="455" y="270" width="90" height="70"/>
-			</ownedElement>
-			<ownedElement xmi:type="umldi:UMLAssociationOrConnectorLinkShape" xmi:id="EAID_CCF000AB_D9CA_4e48_978E_D3FFE9C489DF" kind="Diamond" modelElement="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_D9CA_4e48_978E_D3FFE9C489DF" text="TernaryTest"/>
-				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_D9CA_4e48_978E_D3FFE9C489DF" x="662" y="141" width="50" height="40"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_CCF000AB_D9CA_4e48_B463_87E1A70BB3D9" modelElement="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9">
 				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_D9CA_4e48_B463_87E1A70BB3D9" text="YetAnotherC"/>
@@ -482,36 +458,6 @@
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_CCF000AB_D9CA_4e48_AEC8_BB9FFF82DC38" source="EAID_D09B2CA2_79B1_4070_9B25_0EEF4B81B98F" target="EAID_6C5B9069_8881_44dd_A410_8C8243A9B441" modelElement="EAID_3D5C55A2_9C82_4b49_AEC8_BB9FFF82DC38">
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_D9CA_4e48_AEC8_BB9FFF82DC38" x="615" y="205"/>
 				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_D9CA_4e48_AEC8_BB9FFF82DC38" x="613" y="197"/>
-			</ownedElement>
-			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_CCF000AB_D9CA_4e48_8A0C_7D6EDA5BD653" source="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" target="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" modelElement="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_D9CA_4e48_8A0C_7D6EDA5BD653" text="+toOtherC" modelElement="EAID_dst06C37A_3DB1_4276_8A0C_7D6EDA5BD653">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_D9CA_4e48_8A0C_7D6EDA5BD653" x="675" y="238" width="42" height="14"/>
-				</ownedElement>
-				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_D9CA_4e48_8A0C_7D6EDA5BD653" text="1..*" modelElement="EAID_dst06C37A_3DB1_4276_8A0C_7D6EDA5BD653">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_D9CA_4e48_8A0C_7D6EDA5BD653" x="656" y="236" width="17" height="14"/>
-				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_D9CA_4e48_8A0C_7D6EDA5BD653" x="687" y="181"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_D9CA_4e48_8A0C_7D6EDA5BD653" x="648" y="254"/>
-			</ownedElement>
-			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_CCF000AB_D9CA_4e48_A615_86CE558AC904" source="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" target="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A" modelElement="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_D9CA_4e48_A615_86CE558AC904" text="+toIns" modelElement="EAID_dst88C2A0_D7DA_42fd_A615_86CE558AC904">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_D9CA_4e48_A615_86CE558AC904" x="594" y="118" width="26" height="14"/>
-				</ownedElement>
-				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_D9CA_4e48_A615_86CE558AC904" text="0..*" modelElement="EAID_dst88C2A0_D7DA_42fd_A615_86CE558AC904">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_D9CA_4e48_A615_86CE558AC904" x="639" y="118" width="17" height="14"/>
-				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_D9CA_4e48_A615_86CE558AC904" x="662" y="161"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_D9CA_4e48_A615_86CE558AC904" x="627" y="113"/>
-			</ownedElement>
-			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_CCF000AB_D9CA_4e48_ACB8_AB0F6426E924" source="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" target="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9" modelElement="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924">
-				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_TEL000000_D9CA_4e48_ACB8_AB0F6426E924" text="+toAC" modelElement="EAID_dst2DA13E_3663_44e6_ACB8_AB0F6426E924">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTEL000000_D9CA_4e48_ACB8_AB0F6426E924" x="651" y="80" width="25" height="14"/>
-				</ownedElement>
-				<ownedElement xmi:type="umldi:UMLMultiplicityLabel" xmi:id="EAID_TML000000_D9CA_4e48_ACB8_AB0F6426E924" text="0..1" modelElement="EAID_dst2DA13E_3663_44e6_ACB8_AB0F6426E924">
-					<bounds xmi:type="dc:bounds" xmi:id="EAID_DBTML000000_D9CA_4e48_ACB8_AB0F6426E924" x="695" y="80" width="17" height="14"/>
-				</ownedElement>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000000_D9CA_4e48_ACB8_AB0F6426E924" x="687" y="141"/>
-				<waypoint xmi:type="dc:waypoint" xmi:id="EAID_WP000001_D9CA_4e48_ACB8_AB0F6426E924" x="683" y="75"/>
 			</ownedElement>
 			<ownedElement xmi:type="umldi:UMLEdge" xmi:id="EAID_CCF000AB_D9CA_4e48_A5BC_A7F2E43D05E1" source="EAID_5EB8B749_986E_4911_8687_E792F787348A" target="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" modelElement="EAID_7FB53AD6_6013_4b15_A5BC_A7F2E43D05E1">
 				<ownedElement xmi:type="umldi:UMLAssociationEndLabel" xmi:id="EAID_SEL000000_D9CA_4e48_A5BC_A7F2E43D05E1" text="+source" modelElement="EAID_srcB53AD6_6013_4b15_A5BC_A7F2E43D05E1">
@@ -732,7 +678,6 @@
 				<links>
 					<Association xmi:id="EAID_7192BE9F_1A75_4d40_A3E5_35B5CCB91D11" start="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A" end="EAID_E3EBB3A2_D8B2_4491_A5D7_BB214168FA92"/>
 					<Association xmi:id="EAID_C0A13F7F_6957_42dc_8ED0_643DCFF2A57D" start="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" end="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
-					<Association xmi:id="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
 					<Association xmi:id="EAID_E4D9CCE2_2B46_49a8_B9BB_6305297EB431" start="EAID_8B7C192D_A61E_4bc5_9945_D353DC0D403F" end="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
 				</links>
 			</element>
@@ -806,7 +751,6 @@
 				<links>
 					<Association xmi:id="EAID_C0A13F7F_6957_42dc_8ED0_643DCFF2A57D" start="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" end="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
 					<Association xmi:id="EAID_7FB53AD6_6013_4b15_A5BC_A7F2E43D05E1" start="EAID_5EB8B749_986E_4911_8687_E792F787348A" end="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94"/>
-					<Association xmi:id="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94"/>
 				</links>
 			</element>
 			<element xmi:idref="EAID_E3EBB3A2_D8B2_4491_A5D7_BB214168FA92" xmi:type="uml:Class" name="Vehicle" scope="public">
@@ -899,24 +843,6 @@
 				<tags/>
 				<xrefs/>
 				<extendedProperties tagged="0" package_name="PrettyModel"/>
-				<links>
-					<Association xmi:id="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9"/>
-				</links>
-			</element>
-			<element xmi:idref="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" xmi:type="uml:Association" name="TernaryTest" scope="public">
-				<model package="EAPK_5319A7A3_FDC4_490a_BB28_95CB9D5AAAF2" tpos="0" ea_localid="57" ea_eleType="element"/>
-				<properties isSpecification="false" sType="Association" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<project author="crossover" version="1.0" phase="1.0" created="2025-04-25 10:01:39" modified="2025-05-05 16:30:24" complexity="1" status="Proposed"/>
-				<code gentype="&lt;none&gt;"/>
-				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-				<tags/>
-				<xrefs/>
-				<extendedProperties tagged="0" package_name="PrettyModel"/>
-				<links>
-					<Association xmi:id="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9"/>
-					<Association xmi:id="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A"/>
-					<Association xmi:id="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653" start="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" end="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94"/>
-				</links>
 			</element>
 			<element xmi:idref="EAID_58B50407_565F_498a_9455_70CBB3959506" xmi:type="uml:ProxyConnector" name="ProxyConnector" scope="public" classifier="EAID_7192BE9F_1A75_4d40_A3E5_35B5CCB91D11">
 				<model package="EAPK_5319A7A3_FDC4_490a_BB28_95CB9D5AAAF2" tpos="0" ea_localid="50" ea_eleType="element"/>
@@ -1491,41 +1417,6 @@
 				<xrefs/>
 				<tags/>
 			</connector>
-			<connector xmi:idref="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904">
-				<source xmi:idref="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<model ea_localid="57" type="Association" name="TernaryTest"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A">
-					<model ea_localid="48" type="Class" name="Insurance"/>
-					<role name="toIns" visibility="Public" targetScope="instance"/>
-					<type multiplicity="0..*" aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="50"/>
-				<properties ea_type="Association" direction="Unspecified"/>
-				<modifiers isRoot="false" isLeaf="false"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..*" rt="+toIns"/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
 			<connector xmi:idref="EAID_0724EDAF_E85E_4385_B8F6_E7FE21D09AF8">
 				<source xmi:idref="EAID_A2405B67_1EBA_4367_B2DA_F9B0B33BCE16">
 					<model ea_localid="41" type="Class" name="Wheel"/>
@@ -1590,76 +1481,6 @@
 				<documentation/>
 				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
 				<labels lb="1" lt="+ownedby" rb="1..*" rt="+lends"/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653">
-				<source xmi:idref="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<model ea_localid="57" type="Association" name="TernaryTest"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94">
-					<model ea_localid="51" type="Class" name="SomeOtherClass"/>
-					<role name="toOtherC" visibility="Public" targetScope="instance"/>
-					<type multiplicity="1..*" aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="49"/>
-				<properties ea_type="Association" direction="Unspecified"/>
-				<modifiers isRoot="false" isLeaf="false"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="1..*" rt="+toOtherC"/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
-			<connector xmi:idref="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924">
-				<source xmi:idref="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF">
-					<model ea_localid="57" type="Association" name="TernaryTest"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9">
-					<model ea_localid="58" type="Class" name="YetAnotherC"/>
-					<role name="toAC" visibility="Public" targetScope="instance"/>
-					<type multiplicity="0..1" aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="51"/>
-				<properties ea_type="Association" direction="Unspecified"/>
-				<modifiers isRoot="false" isLeaf="false"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels rb="0..1" rt="+toAC"/>
 				<extendedProperties virtualInheritance="0"/>
 				<style/>
 				<xrefs/>
@@ -1739,17 +1560,17 @@
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_date" name="date"/>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_short" name="short">
 						<generalization xmi:type="uml:Generalization" xmi:id="EAJava_short_General">
-							<general href="http://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Integer"/>
+							<general href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer"/>
 						</generalization>
 					</packagedElement>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_long" name="long">
 						<generalization xmi:type="uml:Generalization" xmi:id="EAJava_long_General">
-							<general href="http://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#UnlimitedNatural"/>
+							<general href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#UnlimitedNatural"/>
 						</generalization>
 					</packagedElement>
 					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_int" name="int">
 						<generalization xmi:type="uml:Generalization" xmi:id="EAJava_int_General">
-							<general href="http://www.omg.org/spec/UML/20161101/PrimitiveTypes.xmi#Integer"/>
+							<general href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer"/>
 						</generalization>
 					</packagedElement>
 				</packagedElement>
@@ -1772,25 +1593,24 @@
 					<element geometry="Left=360;Top=410;Right=450;Bottom=480;" subject="EAID_8D782092_E2EF_41bc_A5E6_161B91F59B1C" seqno="1" style="DUID=3AA3EE38;"/>
 					<element geometry="Left=548;Top=426;Right=638;Bottom=496;" subject="EAID_5EB8B749_986E_4911_8687_E792F787348A" seqno="2" style="DUID=08FB5F42;"/>
 					<element geometry="Left=654;Top=47;Right=713;Bottom=75;" subject="EAID_2FAE96BF_C82D_4e42_B463_87E1A70BB3D9" seqno="3" style="DUID=ABB9D46A;"/>
-					<element geometry="Left=662;Top=141;Right=712;Bottom=181;" subject="EAID_218B6B4F_2CA7_49f0_978E_D3FFE9C489DF" seqno="4" style="DUID=182FFE1F;"/>
-					<element geometry="Left=455;Top=270;Right=545;Bottom=340;" subject="EAID_CCD984E7_B6FF_414f_A5FC_47E52B690A2E" seqno="5" style="DUID=45C86AD1;"/>
-					<element geometry="Left=606;Top=190;Right=620;Bottom=204;" subject="EAID_6C5B9069_8881_44dd_A410_8C8243A9B441" seqno="6" style="DUID=0164975D;"/>
-					<element geometry="Left=608;Top=198;Right=622;Bottom=212;" subject="EAID_D09B2CA2_79B1_4070_9B25_0EEF4B81B98F" seqno="7" style="DUID=3A53946A;"/>
-					<element geometry="Left=589;Top=254;Right=679;Bottom=324;" subject="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" seqno="8" style="DUID=A47DA8E4;"/>
-					<element geometry="Left=487;Top=75;Right=501;Bottom=89;" subject="EAID_58B50407_565F_498a_9455_70CBB3959506" seqno="9" style="DUID=1E76EEC1;"/>
-					<element geometry="Left=507;Top=154;Right=521;Bottom=168;" subject="EAID_7B7E039F_D692_427b_9D68_C37C82046A08" seqno="10" style="DUID=E0808342;"/>
-					<element geometry="Left=545;Top=54;Right=635;Bottom=113;" subject="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A" seqno="11" style="DUID=FCCFC18B;"/>
-					<element geometry="Left=20;Top=157;Right=79;Bottom=187;" subject="EAID_500576A0_E1A7_4e83_9F50_6A09FD8E52DC" seqno="12" style="DUID=44483581;"/>
-					<element geometry="Left=96;Top=47;Right=186;Bottom=117;" subject="EAID_04564352_D031_474a_B487_A7B89F4EEB9B" seqno="13" style="DUID=61B404FC;"/>
-					<element geometry="Left=101;Top=369;Right=191;Bottom=404;" subject="EAID_795741AB_1CD4_413e_B25C_7B12090008ED" seqno="14" style="DUID=975BE070;"/>
-					<element geometry="Left=11;Top=327;Right=101;Bottom=363;" subject="EAID_1AB6792D_CD9B_40fb_A0A9_0D47297036A1" seqno="15" style="DUID=965FBDFB;"/>
-					<element geometry="Left=421;Top=204;Right=488;Bottom=244;" subject="EAID_8B7C192D_A61E_4bc5_9945_D353DC0D403F" seqno="16" style="DUID=8A0AA3A1;"/>
-					<element geometry="Left=326;Top=187;Right=390;Bottom=227;" subject="EAID_57A0E8EE_B6B4_407d_B9AA_3F2B3A295847" seqno="17" style="DUID=E7B8F7F8;"/>
-					<element geometry="Left=20;Top=209;Right=110;Bottom=279;" subject="EAID_A2405B67_1EBA_4367_B2DA_F9B0B33BCE16" seqno="18" style="DUID=070B1A51;"/>
-					<element geometry="Left=174;Top=320;Right=250;Bottom=355;" subject="EAID_75D461D8_CA7D_42d8_9BCB_7C2B1AD54D43" seqno="19" style="DUID=3F31AD75;"/>
-					<element geometry="Left=274;Top=324;Right=364;Bottom=352;" subject="EAID_0E7B8437_CA51_4638_8D32_46EA3D5960D4" seqno="20" style="DUID=489BDD06;"/>
-					<element geometry="Left=205;Top=172;Right=305;Bottom=242;" subject="EAID_4CB97AB0_BF11_4247_A938_AF4D6C2435CD" seqno="21" style="DUID=0BE0EDC8;"/>
-					<element geometry="Left=337;Top=47;Right=441;Bottom=117;" subject="EAID_E3EBB3A2_D8B2_4491_A5D7_BB214168FA92" seqno="22" style="DUID=1A8ABBC4;"/>
+					<element geometry="Left=455;Top=270;Right=545;Bottom=340;" subject="EAID_CCD984E7_B6FF_414f_A5FC_47E52B690A2E" seqno="4" style="DUID=45C86AD1;"/>
+					<element geometry="Left=606;Top=190;Right=620;Bottom=204;" subject="EAID_6C5B9069_8881_44dd_A410_8C8243A9B441" seqno="5" style="DUID=0164975D;"/>
+					<element geometry="Left=608;Top=198;Right=622;Bottom=212;" subject="EAID_D09B2CA2_79B1_4070_9B25_0EEF4B81B98F" seqno="6" style="DUID=3A53946A;"/>
+					<element geometry="Left=589;Top=254;Right=679;Bottom=324;" subject="EAID_1526A539_3EE6_4fc0_8B1E_67CC8C4F5B94" seqno="7" style="DUID=A47DA8E4;"/>
+					<element geometry="Left=487;Top=75;Right=501;Bottom=89;" subject="EAID_58B50407_565F_498a_9455_70CBB3959506" seqno="8" style="DUID=1E76EEC1;"/>
+					<element geometry="Left=507;Top=154;Right=521;Bottom=168;" subject="EAID_7B7E039F_D692_427b_9D68_C37C82046A08" seqno="9" style="DUID=E0808342;"/>
+					<element geometry="Left=545;Top=54;Right=635;Bottom=113;" subject="EAID_ED375B0E_1112_47cb_BEFA_321D6C87C19A" seqno="10" style="DUID=FCCFC18B;"/>
+					<element geometry="Left=20;Top=157;Right=79;Bottom=187;" subject="EAID_500576A0_E1A7_4e83_9F50_6A09FD8E52DC" seqno="11" style="DUID=44483581;"/>
+					<element geometry="Left=96;Top=47;Right=186;Bottom=117;" subject="EAID_04564352_D031_474a_B487_A7B89F4EEB9B" seqno="12" style="DUID=61B404FC;"/>
+					<element geometry="Left=101;Top=369;Right=191;Bottom=404;" subject="EAID_795741AB_1CD4_413e_B25C_7B12090008ED" seqno="13" style="DUID=975BE070;"/>
+					<element geometry="Left=11;Top=327;Right=101;Bottom=363;" subject="EAID_1AB6792D_CD9B_40fb_A0A9_0D47297036A1" seqno="14" style="DUID=965FBDFB;"/>
+					<element geometry="Left=421;Top=204;Right=488;Bottom=244;" subject="EAID_8B7C192D_A61E_4bc5_9945_D353DC0D403F" seqno="15" style="DUID=8A0AA3A1;"/>
+					<element geometry="Left=326;Top=187;Right=390;Bottom=227;" subject="EAID_57A0E8EE_B6B4_407d_B9AA_3F2B3A295847" seqno="16" style="DUID=E7B8F7F8;"/>
+					<element geometry="Left=20;Top=209;Right=110;Bottom=279;" subject="EAID_A2405B67_1EBA_4367_B2DA_F9B0B33BCE16" seqno="17" style="DUID=070B1A51;"/>
+					<element geometry="Left=174;Top=320;Right=250;Bottom=355;" subject="EAID_75D461D8_CA7D_42d8_9BCB_7C2B1AD54D43" seqno="18" style="DUID=3F31AD75;"/>
+					<element geometry="Left=274;Top=324;Right=364;Bottom=352;" subject="EAID_0E7B8437_CA51_4638_8D32_46EA3D5960D4" seqno="19" style="DUID=489BDD06;"/>
+					<element geometry="Left=205;Top=172;Right=305;Bottom=242;" subject="EAID_4CB97AB0_BF11_4247_A938_AF4D6C2435CD" seqno="20" style="DUID=0BE0EDC8;"/>
+					<element geometry="Left=337;Top=47;Right=441;Bottom=117;" subject="EAID_E3EBB3A2_D8B2_4491_A5D7_BB214168FA92" seqno="21" style="DUID=1A8ABBC4;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4EE667AE_936A_4c9a_A4F8_5BEAF2D61B8E" style="Mode=3;EOID=1A8ABBC4;SOID=0BE0EDC8;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_317F5D7A_460B_4533_8691_2472E6E3A0C1" style="Mode=3;EOID=0BE0EDC8;SOID=489BDD06;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=50:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_453E0B57_0B22_437b_BEC7_FF1AF2057353" style="Mode=3;EOID=0BE0EDC8;SOID=3F31AD75;Color=-1;LWidth=0;Hidden=0;"/>
@@ -1808,9 +1628,6 @@
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7F0C5D71_B16C_4596_83D0_19F8B8A80B53" style="Mode=3;EOID=1E76EEC1;SOID=E0808342;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LLT=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=32:CY=14:OX=6:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_C0A13F7F_6957_42dc_8ED0_643DCFF2A57D" style="Mode=3;EOID=FCCFC18B;SOID=A47DA8E4;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="EDGE=1;SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3D5C55A2_9C82_4b49_AEC8_BB9FFF82DC38" style="Mode=3;EOID=0164975D;SOID=3A53946A;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=0;SY=1;EX=0;EY=1;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=CX=42:CY=14:OX=76:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_FC06C37A_3DB1_4276_8A0C_7D6EDA5BD653" style="Mode=3;EOID=A47DA8E4;SOID=182FFE1F;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=CX=26:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_DA88C2A0_D7DA_42fd_A615_86CE558AC904" style="Mode=3;EOID=FCCFC18B;SOID=182FFE1F;Color=-1;LWidth=0;Hidden=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=CX=25:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0B2DA13E_3663_44e6_ACB8_AB0F6426E924" style="Mode=3;EOID=ABB9D46A;SOID=182FFE1F;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=-1;EX=0;EY=-1;EDGE=1;$LLB=CX=6:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LLT=CX=32:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=30:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRB=CX=17:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_7FB53AD6_6013_4b15_A5BC_A7F2E43D05E1" style="Mode=3;EOID=A47DA8E4;SOID=08FB5F42;Color=-1;LWidth=0;Hidden=0;"/>
 					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_BDB577E0_7A51_4789_83F9_98809F43FA88" style="Mode=3;EOID=08FB5F42;SOID=3AA3EE38;Color=-1;LWidth=0;Hidden=0;"/>
 				</elements>

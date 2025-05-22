@@ -9,16 +9,19 @@
 
 core-res:core-withConstraints a owl:Ontology ;
     rdfs:label "testing aa bb.ff"@en ;
-    dcterms:created "2025-05-05"^^xsd:date ;
+    dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:description "testing aa bb. cc"@en ;
-    dcterms:issued "2025-05-05"^^xsd:date ;
+    dcterms:issued "2025-05-22"^^xsd:date ;
     dcterms:license "nah, for testing." ;
     dcterms:publisher "http://www.example.org/" ;
     dcterms:title "test Core restrictions"@en ;
     vann:preferredNamespacePrefix "test" ;
     vann:preferredNamespaceUri "http://www.example.org/testmodels" ;
-    rdfs:comment """This version is automatically generated from prettyModel-cleaned.xmi on 
-                2025-05-05""" ;
+    rdfs:comment """
+                This version is automatically generated from
+                prettyModel-cleaned.xmi
+                on
+                2025-05-22""" ;
     rdfs:seeAlso <https://example1.com>,
         <https://example2.com> ;
     owl:imports dcterms:,
@@ -64,21 +67,29 @@ core-res:toIns rdfs:domain core-res:TernaryTest ;
 core-res:toOtherC rdfs:domain core-res:TernaryTest ;
     rdfs:range core-res:SomeOtherClass .
 
+core-res:date a owl:FunctionalProperty ;
+    rdfs:domain core-res:AssocClass1 ;
+    rdfs:range xsd:date .
+
 core-res:engravedID a owl:FunctionalProperty ;
     rdfs:domain core-res:Vehicle ;
     rdfs:range core-res:int .
 
+core-res:long a owl:Class .
+
 core-res:nickName a owl:FunctionalProperty ;
     rdfs:domain core-res:Vehicle ;
-    rdfs:range core-res:long .
+    rdfs:range xsd:long .
+
+core-res:short a owl:Class .
 
 core-res:AssocClass1 a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:date ],
+            owl:onProperty core-res:name ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ] .
+            owl:onProperty core-res:date ] .
 
 core-res:Cycle rdfs:subClassOf [ a owl:Class ;
             owl:intersectionOf ( [ a owl:Restriction ;
@@ -88,15 +99,7 @@ core-res:Cycle rdfs:subClassOf [ a owl:Class ;
                         owl:onProperty core-res:colour ] ) ] .
 
 core-res:colour rdfs:domain core-res:Cycle ;
-    rdfs:range core-res:short .
-
-core-res:date a owl:FunctionalProperty ;
-    rdfs:domain core-res:AssocClass1 ;
-    rdfs:range core-res:date .
-
-core-res:long a owl:Class .
-
-core-res:short a owl:Class .
+    rdfs:range xsd:short .
 
 core-res:RentalCompany a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -112,19 +115,19 @@ core-res:name a owl:FunctionalProperty ;
 core-res:Vehicle a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:name ],
+            owl:onProperty core-res:engravedID ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
-            owl:onProperty core-res:engravedID ],
+            owl:onProperty core-res:name ],
         [ a owl:Restriction ;
             owl:cardinality 1 ;
             owl:onProperty core-res:nickName ] .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:Bicycle core-res:Monocycle ) .
+    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( core-res:Boat core-res:Car core-res:Cycle ) .
+    owl:members ( core-res:Bicycle core-res:Monocycle ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( core-res:BoringWheel core-res:FancyWheel ) .

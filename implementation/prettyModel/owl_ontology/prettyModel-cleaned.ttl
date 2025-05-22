@@ -150,15 +150,15 @@ core-res:Vehicle a owl:Class ;
 
 core-res:core a owl:Ontology ;
     rdfs:label "testing aa bb. ee"@en ;
-    dcterms:created "2025-05-05"^^xsd:date ;
+    dcterms:created "2025-05-22"^^xsd:date ;
     dcterms:description "testing aa bb."@en ;
-    dcterms:issued "2025-05-05"^^xsd:date ;
+    dcterms:issued "2025-05-22"^^xsd:date ;
     dcterms:license "nah, for testing." ;
     dcterms:publisher "http://www.example.org/" ;
     dcterms:title "test Core core"@en ;
     vann:preferredNamespacePrefix "test" ;
     vann:preferredNamespaceUri "http://www.example.org/testmodels" ;
-    rdfs:comment "This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-05" ;
+    rdfs:comment "This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-22" ;
     rdfs:seeAlso <https://example1.com>,
         <https://example2.com> ;
     owl:imports dcterms:,

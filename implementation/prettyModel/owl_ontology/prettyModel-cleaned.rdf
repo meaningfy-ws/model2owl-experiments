@@ -7,6 +7,26 @@
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
+  <rdf:Description rdf:about="http://www.example.org/testmodels#SomeOtherClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Some Other Class</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Vehicle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Vehicle</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#toIns">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">to Ins</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#hasIns">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">has Ins</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#core">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
@@ -15,11 +35,11 @@
     <rdfs:label xml:lang="en">testing aa bb. ee</rdfs:label>
     <dcterms:description xml:lang="en">testing aa bb.</dcterms:description>
     <dcterms:publisher>http://www.example.org/</dcterms:publisher>
-    <rdfs:comment>This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-05</rdfs:comment>
+    <rdfs:comment>This version is automatically generated from prettyModel-cleaned.xmi on 2025-05-22</rdfs:comment>
     <rdfs:seeAlso rdf:resource="https://example1.com"/>
     <rdfs:seeAlso rdf:resource="https://example2.com"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dcterms:issued>
-    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-05</dcterms:created>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dcterms:issued>
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-22</dcterms:created>
     <owl:versionInfo>0.1</owl:versionInfo>
     <owl:incompatibleWith>0.1</owl:incompatibleWith>
     <owl:versionIRI rdf:resource="http://www.example.org/testmodels#core-0.1"/>
@@ -28,131 +48,24 @@
     <vann:preferredNamespacePrefix>test</vann:preferredNamespacePrefix>
     <dcterms:license>nah, for testing.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Cycle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Cycle</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Vehicle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Vehicle</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#ownedby">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">ownedby</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Bicycle">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Bicycle</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Cycle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#ClassForQualAssoc">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Class For Qual Assoc</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#FancyWheel">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Fancy Wheel</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Wheel"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Boat">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Boat</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#engravedID">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:prefLabel xml:lang="en">engraved ID</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#SomeOtherClass">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Some Other Class</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Car">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Car</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#colour">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:prefLabel xml:lang="en">colour</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#date">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:prefLabel xml:lang="en">date</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#name">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:prefLabel xml:lang="en">name</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#RentalCompany">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:prefLabel xml:lang="en">Rental Company</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Monocycle">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Contractor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Monocycle</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Cycle"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#toOtherC">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">to Other C</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#nickName">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:prefLabel xml:lang="en">nick Name</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#source">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">source</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#hasInsSub">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.example.org/testmodels#for"/>
-    <skos:prefLabel xml:lang="en">has Ins Sub</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#toIns">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">to Ins</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#target">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">target</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#lends">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">lends</skos:prefLabel>
-    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#for">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">for</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Contractor</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#AssocClass1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:prefLabel xml:lang="en">Assoc Class1</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#engravedID">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <skos:prefLabel xml:lang="en">engraved ID</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#forSub">
@@ -161,29 +74,42 @@
     <skos:prefLabel xml:lang="en">for Sub</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#YetAnotherC">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Yet Another C</skos:prefLabel>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#colour">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <skos:prefLabel xml:lang="en">colour</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Wheel">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Boat">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Wheel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Boat</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Contractor">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Monocycle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Contractor</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Monocycle</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Cycle"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#hasIns">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#lends">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">has Ins</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lends</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#Insurance">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Bicycle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <skos:prefLabel xml:lang="en">Insurance</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Bicycle</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Cycle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#toOtherC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">to Other C</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#toAC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">to AC</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#BoringWheel">
@@ -192,14 +118,88 @@
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
     <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Wheel"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/testmodels#toAC">
+  <rdf:Description rdf:about="http://www.example.org/testmodels#source">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <skos:prefLabel xml:lang="en">to AC</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">source</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#YetAnotherC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Yet Another C</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#target">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">target</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Wheel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Wheel</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Car">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Car</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#date">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <skos:prefLabel xml:lang="en">date</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/testmodels#PartsClass">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <skos:prefLabel xml:lang="en">Parts Class</skos:prefLabel>
     <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#hasInsSub">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.example.org/testmodels#for"/>
+    <skos:prefLabel xml:lang="en">has Ins Sub</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#name">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <skos:prefLabel xml:lang="en">name</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#nickName">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <skos:prefLabel xml:lang="en">nick Name</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#FancyWheel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Fancy Wheel</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Wheel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#for">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">for</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#ClassForQualAssoc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Class For Qual Assoc</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Insurance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Insurance</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#ownedby">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <skos:prefLabel xml:lang="en">ownedby</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/testmodels#Cycle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Cycle</skos:prefLabel>
+    <rdfs:isDefinedBy rdf:resource="http://www.example.org/testmodels#core"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/testmodels#Vehicle"/>
   </rdf:Description>
 </rdf:RDF>

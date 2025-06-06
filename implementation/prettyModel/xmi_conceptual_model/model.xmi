@@ -1,0 +1,124 @@
+<?xml  version='1.0' encoding='windows-1252' ?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:umldi="http://www.omg.org/spec/UML/20131001/UMLDI" xmlns:dc="http://www.omg.org/spec/UML/20131001/UMLDC" xmlns:thecustomprofile="http://www.sparxsystems.com/profiles/thecustomprofile/1.0">
+	<xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5" exporterID="1703"/>
+	<uml:Model xmi:type="uml:Model" name="EA_Model">
+		<packagedElement xmi:type="uml:Package" xmi:id="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738" name="package1">
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016" name="Class1">
+				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_DD6FC13C_20F4_48f9_89D9_3B490C64C983" name="attr1" visibility="private">
+					<lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_20F4_48f9_89D9_3B490C64C983" value="1"/>
+					<upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="EAID_LI000002_20F4_48f9_89D9_3B490C64C983" value="1"/>
+					<type xmi:idref="EAJava_int"/>
+				</ownedAttribute>
+			</packagedElement>
+		</packagedElement>
+		<umldi:Diagram xmi:type="umldi:UMLClassDiagram" xmi:id="EAID_90753FF9_14FC_40ca_A937_110E162D2954" isFrame="false" modelElement="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738">
+			<ownedElement xmi:type="umldi:UMLClassifierShape" xmi:id="EAID_90753FF9_14FC_40ca_ADB1_6EF5F9FED016" modelElement="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016">
+				<ownedElement xmi:type="umldi:UMLNameLabel" xmi:id="EAID_NL000000_14FC_40ca_ADB1_6EF5F9FED016" text="Class1"/>
+				<bounds xmi:type="dc:bounds" xmi:id="EAID_DB000000_14FC_40ca_ADB1_6EF5F9FED016" x="246" y="152" width="90" height="70"/>
+			</ownedElement>
+		</umldi:Diagram>
+		<profileApplication xmi:type="uml:ProfileApplication" xmi:id="profileap_thecustomprofile">
+			<appliedProfile xmi:type="uml:Profile" href="http://www.sparxsystems.com/profiles/thecustomprofile/1.0#thecustomprofile"/>
+		</profileApplication>
+	</uml:Model>
+	<xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+		<elements>
+			<element xmi:idref="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738" xmi:type="uml:Package" name="package1" scope="public">
+				<model package2="EAID_2629BAC6_AE3E_427f_8C94_8785202B3738" package="EAPK_EC62D9BB_EB03_47ff_A265_77749C447C86" tpos="0" ea_localid="7" ea_eleType="package"/>
+				<properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+				<project author="greg" version="1.0" phase="1.0" created="2025-06-06 13:12:41" modified="2025-06-06 13:12:41" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags/>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="Model"/>
+				<packageproperties version="1.0"/>
+				<paths/>
+				<times created="2025-06-06 13:12:41" modified="2025-06-06 13:12:41"/>
+				<flags iscontrolled="0" isprotected="0" usedtd="0" logxml="0" packageFlags="isModel=1;VICON=3;"/>
+			</element>
+			<element xmi:idref="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016" xmi:type="uml:Class" name="Class1" scope="public">
+				<model package="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738" tpos="0" ea_localid="82" ea_eleType="element"/>
+				<properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"/>
+				<project author="greg" version="1.0" phase="1.0" created="2025-06-06 13:12:53" modified="2025-06-06 13:12:53" complexity="1" status="Proposed"/>
+				<code gentype="Java"/>
+				<style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+				<tags>
+					<tag xmi:id="EAID_0F597B24_E78A_4d15_843B_2CD872869BBF" name="skos:scopeNote" value="Usage note for Class1" modelElement="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016"/>
+				</tags>
+				<xrefs/>
+				<extendedProperties tagged="0" package_name="package1"/>
+				<attributes>
+					<attribute xmi:idref="EAID_DD6FC13C_20F4_48f9_89D9_3B490C64C983" name="attr1" scope="Private">
+						<initial/>
+						<documentation/>
+						<model ea_localid="19" ea_guid="{DD6FC13C-20F4-48f9-89D9-3B490C64C983}"/>
+						<properties type="int" collection="false" static="0" duplicates="0" changeability="changeable"/>
+						<coords ordered="0"/>
+						<containment containment="Not Specified" position="0"/>
+						<stereotype/>
+						<bounds lower="1" upper="1"/>
+						<options/>
+						<style/>
+						<styleex value="volatile=0;"/>
+						<tags>
+							<tag xmi:id="EAID_37B9B888_724F_4383_BD0E_C2602EBDBA7B" name="skos:scopeNote" value="Usage note for attr1"/>
+						</tags>
+						<xrefs/>
+					</attribute>
+				</attributes>
+			</element>
+		</elements>
+		<connectors/>
+		<primitivetypes>
+			<packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package">
+				<packagedElement xmi:type="uml:Package" xmi:id="EAJavaTypesPackage" name="EA_Java_Types_Package">
+					<packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_int" name="int">
+						<generalization xmi:type="uml:Generalization" xmi:id="EAJava_int_General">
+							<general href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#Integer"/>
+						</generalization>
+					</packagedElement>
+				</packagedElement>
+			</packagedElement>
+		</primitivetypes>
+		<profiles>
+			<uml:Profile xmlns:uml="http://www.omg.org/spec/UML/20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmi:id="thecustomprofile" nsPrefix="thecustomprofile" name="thecustomprofile" metamodelReference="mmref01">
+				<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="thecustomprofile">
+					<body> Version:1.0</body>
+				</ownedComment>
+				<packageImport xmi:id="mmref01">
+					<importedPackage href="http://www.omg.org/spec/UML/20131001"/>
+				</packageImport>
+				<packagedElement xmi:type="uml:Stereotype" xmi:id="skos:scopeNote" name="skos:scopeNote">
+					<ownedAttribute xmi:type="uml:Property" xmi:id="skos:scopeNote-base_Class" name="base_Class" association="Class_skos:scopeNote">
+						<type href="http://www.omg.org/spec/UML/20131001/UML.xmi#Class"/>
+					</ownedAttribute>
+					<ownedAttribute xmi:type="uml:Property" xmi:id="skos:scopeNote-skos:scopeNote" name="skos:scopeNote">
+						<type href="http://www.omg.org/spec/UML/20131001/UML.xmi#String"/>
+					</ownedAttribute>
+				</packagedElement>
+				<packagedElement xmi:type="uml:Extension" xmi:id="Class_skos:scopeNote" name="A_Class_skos:scopeNote" memberEnd="extension_skos:scopeNote skos:scopeNote-base_Class">
+					<ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="extension_skos:scopeNote" name="extension_skos:scopeNote" type="skos:scopeNote" isComposite="true" lower="0" upper="1" memberEnd="extension_skos:scopeNote skos:scopeNote-base_Class"/>
+				</packagedElement>
+			</uml:Profile>
+		</profiles>
+		<diagrams>
+			<diagram xmi:id="EAID_90753FF9_14FC_40ca_A937_110E162D2954">
+				<model package="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738" localID="5" owner="EAPK_2629BAC6_AE3E_427f_8C94_8785202B3738"/>
+				<properties name="package1" type="Logical"/>
+				<project author="greg" version="1.0" created="2025-06-06 13:12:50" modified="2025-06-06 13:13:53"/>
+				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=850;DocSize.cy=1098;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=218F49CA;"/>
+				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<extendedProperties/>
+				<persistentstyle value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+				<xrefs/>
+				<elements>
+					<element geometry="Left=246;Top=152;Right=336;Bottom=222;" subject="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016" seqno="1" style="DUID=E5C5D8BB;"/>
+				</elements>
+			</diagram>
+		</diagrams>
+	</xmi:Extension>
+	<thecustomprofile:skos_scopeNote base_Class="EAID_E7EF90E6_5A3A_4afa_ADB1_6EF5F9FED016" __EAStereoName="skos:scopeNote" skos_scopeNote="Usage note for Class1"/>
+</xmi:XMI>

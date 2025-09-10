@@ -6,193 +6,107 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:vann="http://purl.org/vocab/vann/"
 >
-  <rdf:Description rdf:nodeID="N0b5b8169594e483aa82c2ef184aeb0f4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D24"/>
-    <rdf:rest rdf:nodeID="N644c27a0aa65477ea29987499fe63651"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N611f39ab2fe742e4a1091253b8f3a98a">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesContractAmendment"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2878d66766a3493a9554b210f4d04753">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice21"/>
-    <rdf:rest rdf:nodeID="N47708dcaa76146608e19e00b0c82241f"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToRole">
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AgentInRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na6b0e460ae2042c794cbdaf0a6b394db">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice1"/>
-    <rdf:rest rdf:nodeID="Nb52f1b9e4bfb4dbe9ab582d55f73db9b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N494cef93b99f4956bbbc2a8bffdfe3e3">
+  <rdf:Description rdf:nodeID="N7f26a3a120554ef68b6b290adaca218d">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Naeb52bd403f043c48bae1fc30224fec9">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesRole"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  <rdf:Description rdf:nodeID="N6b127da0d921430ebec3cab27d69103e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestNotice"/>
+    <rdf:rest rdf:nodeID="Na0d5f6bd5b4c4dd48a47628919463b6b"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesProcedure">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:domain rdf:nodeID="Na5d9eb368e9c4858864973c41eddb1d5"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
+  <rdf:Description rdf:nodeID="N2b27f4c8568c4b93be361a4205bb46d2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D24"/>
+    <rdf:rest rdf:nodeID="Nc7a221400db84012863fc8ade6045df3"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#CompetitionNotice">
-    <rdfs:subClassOf rdf:nodeID="N4df4775b1c2948c0ae9d66c10c62b7cd"/>
-    <rdfs:subClassOf rdf:nodeID="N0df7d8bb5a5248bba020c63b992b43d0"/>
-    <rdfs:subClassOf rdf:nodeID="Nd06545943605438796c50607470a5fb1"/>
+  <rdf:Description rdf:nodeID="Na7dc55b985ad4173bd78af257278bd5c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocial-D25"/>
+    <rdf:rest rdf:nodeID="N17e33e8e4cdc43deb0fe3959de05e497"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nde55f33b151242d7b6e18dc5c7c20dfc">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice38"/>
-    <rdf:rest rdf:nodeID="N20c1b360c9d54a2893ac682cfe4bd196"/>
+  <rdf:Description rdf:nodeID="Nca508a25bed14921807620e2d4813d55">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D25"/>
+    <rdf:rest rdf:nodeID="N87f43bea6f69405194819ae83fd62582"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N8e0eec2ad0a94deab00678722f135d0c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D24"/>
-    <rdf:rest rdf:nodeID="N42d0ebee1e2e415c9a7117d12735fa2e"/>
+  <rdf:Description rdf:nodeID="N1793dde224604901b6793dd79e7795fe">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D81"/>
+    <rdf:rest rdf:nodeID="N84da42500c6d42199ba926fa027d617d"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne990e49c2ec147a1a20fbd4139afe250">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SubcontractNotice"/>
+  <rdf:Description rdf:nodeID="N4c7f6486ff894d62a7de4ac655bc0d5c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D24"/>
+    <rdf:rest rdf:nodeID="N4e0f1c71a28e484f87e43b6c522f4063"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6aee9d7e29d4fa183460a9d6aa56aad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nee998c13236e448c9336a55d824ab973"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N792059523d0c452cb826a44cc87b2703">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice34"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf2a73c46125c4c18ad506bf42e673581">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice6"/>
-    <rdf:rest rdf:nodeID="Nca536bda433f4f749d3278c75d8489d4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8c4f4076d24c49c8a6d3f4ddf54a7dbf">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Ne148e76c025e4dc49d7d5516057a6b47"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd4246d6749d54b9f814aecf8931c5290">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nadc632cf055145a69a8dc6780bf3795f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N593e091992f844a589f266dbd7255a67"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N76a4239a196b4ad0aeeeb52f5b17fb22">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Ne995823208094ff2b8363a88159930d5"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd06545943605438796c50607470a5fb1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesProcedure"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb65b0bb658b1485b84b4d9fe1b3621b2">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice16"/>
-    <rdf:rest rdf:nodeID="N8a07e9eebc32403aa78a4b8244a9fb90"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd5c1ef6a526e48cb8d3fa90ca5a079b0">
+  <rdf:Description rdf:nodeID="Na6d8cdf7cda847228ad2764c8fc23329">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesLot"/>
     <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd5b4abe2e2d5468da081578e6e918bf9">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice2"/>
-    <rdf:rest rdf:nodeID="N616d7b69435f4266a33641c6fdee8dd5"/>
+  <rdf:Description rdf:nodeID="Ne38b536aeaa447ebbdb278ea912dd206">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D25"/>
+    <rdf:rest rdf:nodeID="Nce05b48a839247e99599033b971d3f11"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesAwardDecision">
-    <rdfs:domain rdf:nodeID="N3853a4aa2a834b22a2591f66c7c12994"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AwardDecision"/>
+  <rdf:Description rdf:nodeID="Nb80aca031d4a4db9a0dbe17e3b1f410b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N4aaa1d3f4052481ca7e53950ab4a1593"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf5061b9084b54abe8a20de3f4dd56feb">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINDefence-D81"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:nodeID="N6946e16e432a46f3827041da4c393684">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D24"/>
+    <rdf:rest rdf:nodeID="N77708613891a4f5a9c1c6babc6367288"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd51e6903094c4a5dad1125a24f53765b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandard-D24"/>
-    <rdf:rest rdf:nodeID="Na9d59178e0274902916b03b335ec695d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Naf5fa01e6b474f32861693d47b72e877">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice"/>
-    <rdf:rest rdf:nodeID="Nf0470eb26fe54a609b452c4c05dbdff1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc32236361f4940cd989568039f3c7c01">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice"/>
-    <rdf:rest rdf:nodeID="Naf5fa01e6b474f32861693d47b72e877"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne8a669f535424c35b029f147817f3343">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="Ncf7ba4160e4341d29d64c12635d6bff0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9fd2a9a00959410cb19021261a8ead67">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice22"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4f3a9c7c6371460a9b34329be0300600">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="N944f40f497b347fa874b5379087eb090"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N610cc0c46a034b3e837b48afc62256a6">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandard-D24"/>
-    <rdf:rest rdf:nodeID="N33eb9aa3ddc341d59b07908567ccbaf2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N655443b47f9e4afab54eb642b423ab29">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D25"/>
-    <rdf:rest rdf:nodeID="N9884e3687f30485982597a3afeaaa8a1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N16c00b8e9e734438ba86cf30f370fe67">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="Ne5d33e22ad41484d961328f6cdfa462c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N92d77d888d1a478a8f5e3a4f028d0cea">
+  <rdf:Description rdf:nodeID="N49279d01ab8b4280b108577ffe2a5278">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToRole"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToContractToBeModified"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf50469f5e0de4b2f8a1de1447a0602ba">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice7"/>
-    <rdf:rest rdf:nodeID="Na97d7e6567f94d6ab33edad067b675cf"/>
+  <rdf:Description rdf:nodeID="N7c5b8bb286fa4dde88202853df797e2b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N24fa5a5a29644cf8bdc11fc8ba922d5d"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N62e5462bdd5c480bb02710970e99bb1d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice29"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:nodeID="Nb9b235cada854021bb0a5d2a4df24d33">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice4"/>
+    <rdf:rest rdf:nodeID="N4988395476274d90a24b0d18a253272c"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfda07abbb84b423e95b8487152f2adce">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice40"/>
-    <rdf:rest rdf:nodeID="N7f7450f8face4fde885a474780e90c96"/>
+  <rdf:Description rdf:nodeID="Na6cf8db295a942b0a7464cebb8b9bb26">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N4e8eadd8071444648ff2aa87a3202e08"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToContractToBeModified">
+  <rdf:Description rdf:nodeID="N4aaa1d3f4052481ca7e53950ab4a1593">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="N2aecee9fa7b44c1ea01a5530796a6d53"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N322bd9947e814b0a9557b56b3f3cc9d5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb3e1ad18863c4c2386bfee4ae8c36d72"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ResultNotice">
+    <rdfs:subClassOf rdf:nodeID="N1299ef53b9ea493b94920c9a960c5b9c"/>
+    <rdfs:subClassOf rdf:nodeID="Na586295c5d5e44b89e5e25c25019b872"/>
+    <rdfs:subClassOf rdf:nodeID="N310ce28e1a754b78b9e82d5a0ed672fd"/>
+    <rdfs:subClassOf rdf:nodeID="N31b74af8d89c40d088a0f8140b486e6d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N45e9494cf12949c086f31757c84a8c43">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Subcontract-D81"/>
+    <rdf:rest rdf:nodeID="Na01f3ad4c37445ff9a271aad9eb830d8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee998c13236e448c9336a55d824ab973">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice"/>
+    <rdf:rest rdf:nodeID="N1c97be474b1940a79bf247a3f0847ea2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToProcedure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:nodeID="Nb80aca031d4a4db9a0dbe17e3b1f410b"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesContractAmendment">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Contract"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7d4a0840f7e042e482b4593ffc5f2a90">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="Na540a2d1f3f5449991c1406d40970f06"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na23caefa84ad41f38d6063436e2144be">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandardNotice"/>
-    <rdf:rest rdf:nodeID="Nd6755f15e7d44890a3deb1a86b080112"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7c8d6c7fa3fe4b8bb43d59bf7d7e9ca3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Na918446c765e48a68fafb031f1c0ab52"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N24390899e4a64ff38f8bf140fc5bfdb6">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3c3c35fa3e4c45b09e3949fa691472cc">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice11"/>
-    <rdf:rest rdf:nodeID="N86941f0773f64c9d9f60369651c584be"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbe6f191e6ee44ecaac619575899bf0c1">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:nodeID="Nfc907e820099486aa2d822c1c01e323b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0df7d8bb5a5248bba020c63b992b43d0">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesRole"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#ContractAmendment"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#core-restriction">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -221,1017 +135,1103 @@
     <vann:preferredNamespacePrefix>epo</vann:preferredNamespacePrefix>
     <dcterms:license>The Commission’s reuse policy is implemented by Commission Decision2011/833/EU of 12 December 2011 on the reuse of Commission documents          (OJ L 330,14.12.2011, p. 39 – https://eur-lex.europa.eu/eli/dec/2011/833/oj). Unlessotherwise noted, the reuse of this document is authorised under the          CreativeCommons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/).This means that reuse is allowed, provided          that appropriate credit is given and any changes are indicated.</dcterms:license>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N404a9f4085b941cb97c1c643672c4953">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D81"/>
-    <rdf:rest rdf:nodeID="N53fa68f9917e42d1a2af37b160a43140"/>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesProcedure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:nodeID="N0ff787c6372b4b82b2657fbf92b1f5ce"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1197435ac7284dfc9d06d3f6fb7ea124">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice9"/>
-    <rdf:rest rdf:nodeID="Ncd6bf24ba56147d2a7c52bf5f67d2307"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc89ab0b04ef648e2b3d8f308a4132ed1">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N0b4482cad66b4f3c917e610a7ca8bf8c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N47d82f765a4149b79d2378bd286c44fd">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesProcedure"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nca536bda433f4f749d3278c75d8489d4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D24"/>
-    <rdf:rest rdf:nodeID="N4f4eb02a03ae4aa295e329a69595dbc4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nad3d0b08de8943bda08a7a58f3aa1a9a">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice20"/>
-    <rdf:rest rdf:nodeID="N861a1444076c45a4ab2c53767eac0ce3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6ec78ff014f34d20821d2356367df23a">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D23"/>
-    <rdf:rest rdf:nodeID="N8e0eec2ad0a94deab00678722f135d0c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3ae17f8f175643d98b91b219bc8462c3">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice22"/>
-    <rdf:rest rdf:nodeID="N635d0df25a1640c68cdc54613f7239c0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N33eb9aa3ddc341d59b07908567ccbaf2">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D24"/>
-    <rdf:rest rdf:nodeID="N280cfc544bcd4881a7babafcaf63ad3b"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLotGroupAwardInformation">
-    <rdfs:domain rdf:nodeID="N16865232b7dc40b2a1d6799988bbb297"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroupAwardInformation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2dda4c7492ee4724acf4ea32f84adb3b">
+  <rdf:Description rdf:nodeID="N4b3dc8b7d5b9410d9a492c597c3e4574">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLotGroup">
-    <rdfs:domain rdf:nodeID="N47bc61771ae84dc58b83e4142c6d49f4"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroup"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N951957ccdac044c2aa019e3c1f48a47c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResultNotice"/>
-    <rdf:rest rdf:nodeID="N5c9432eb4b65424881d21ade1ea5b5d8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N713987825f8146969c2f960efb24840d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf0c7534ae05043869ecedf1f4694f016">
+  <rdf:Description rdf:nodeID="Nf812deda01ef4e21ad44bf2de5a9e857">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N7d4a0840f7e042e482b4593ffc5f2a90"/>
+    <owl:unionOf rdf:nodeID="N025f413e08284d39bf73a612a0851ccd"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N47aea99075f945d9a1c06f05090e6fe9">
+  <rdf:Description rdf:nodeID="Nab1cfa51344148328bae943128da0d80">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice14"/>
+    <rdf:rest rdf:nodeID="N013f10d066d845b49a09a5362409ae09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesRole">
+    <rdfs:domain rdf:nodeID="Nb231ba4b0e764ecf8ef495700e0e1ec3"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AgentInRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice">
+    <rdfs:subClassOf rdf:nodeID="Na6d8cdf7cda847228ad2764c8fc23329"/>
+    <rdfs:subClassOf rdf:nodeID="N4f4eb91e6dae4157829f072c1c99247f"/>
+    <rdfs:subClassOf rdf:nodeID="Nbb34de0ec74a48249fabf09c5a46c146"/>
+    <rdfs:subClassOf rdf:nodeID="N3fe7c94d3d38444d9bfcebc89b2ad6bc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c1dd5765d3448f8b0939f7b6839aee0">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice27"/>
+    <rdf:rest rdf:nodeID="Nda43a6f1aec84421bb2b1293157ecc35"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N093638f100a04c819239f27bea16a2ff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nf4e22fff02f244528994697f477934cd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractModificationNotice">
+    <rdfs:subClassOf rdf:nodeID="N49279d01ab8b4280b108577ffe2a5278"/>
+    <rdfs:subClassOf rdf:nodeID="N37728f0ae0fb4723a005f62382e69583"/>
+    <rdfs:subClassOf rdf:nodeID="N62bc48416d4e4ea0bdb5dd721eb7c714"/>
+    <rdfs:subClassOf rdf:nodeID="Nd0bfb6cb144d460a99f3057aff3cf7a7"/>
+    <rdfs:subClassOf rdf:nodeID="N406cadd2da15427086342f035f647610"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N415387cdc937472ebd643f1680e29804">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N1e3784d3e05d4bad9051f64959ee2790"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToNoticeAwardInformation">
+    <rdfs:domain rdf:nodeID="N093638f100a04c819239f27bea16a2ff"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda6b258f1c054188a673d8be3644512a">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToProcedure"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesReviewObject"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N368875182da943fb9663c4b5d7b6d095">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N2f9f876324994233af55b16a76637673"/>
+  <rdf:Description rdf:nodeID="Nc76537cb16a6454fafe37d6b78b0ade5">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
+    <rdf:rest rdf:nodeID="N64cdbc2fb71c45d08b3ffedbbcbb8f17"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N4f4eb02a03ae4aa295e329a69595dbc4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D25"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf2f9168bc7f4415c9ea9fef0b6d838ce">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D25"/>
-    <rdf:rest rdf:nodeID="N1197435ac7284dfc9d06d3f6fb7ea124"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbc0bcfdc119e46f1a0e267c9886e4b08">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4e69486a4b654dd886460bd10a055c28">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="N5e0f921518a74f779387744b21a91df7"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nda4f24e855d143a4aae40dc40d119faa">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice15"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4f68cd2f50644a25b39aa142365f754e">
+  <rdf:Description rdf:nodeID="N31b74af8d89c40d088a0f8140b486e6d">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesNoticeAwardInformation"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc24dcf0516b741bfaa461d7c6041fde3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N2f4a2a64666441b69cb49e54021efc9f"/>
+  <rdf:Description rdf:nodeID="N76723b64222a4f2aa75bf07ef7a304e2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice13"/>
+    <rdf:rest rdf:nodeID="N283517c14503439d8d1ff49ead54a16f"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd6755f15e7d44890a3deb1a86b080112">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandardNotice"/>
-    <rdf:rest rdf:nodeID="Nc32236361f4940cd989568039f3c7c01"/>
+  <rdf:Description rdf:nodeID="N12dfc491f88c4af39a61b4ed2bafffae">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D25"/>
+    <rdf:rest rdf:nodeID="N33ae90dee3c3472fa18eb22de2b1b1f1"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N9b7ea92284bb46aaac47954e588050c6">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice36"/>
-    <rdf:rest rdf:nodeID="N35a2c700346549dd89514eead039073d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na10c924182c1461890384854afc336fc">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfileNotice"/>
-    <rdf:rest rdf:nodeID="Nbc2be57d192242b5b18771825fb6c3eb"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd873d45c80b44f07a11eb3148e67d289">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D24"/>
-    <rdf:rest rdf:nodeID="Nc17a15bda1ec408196dac32758f16ea1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na9d59178e0274902916b03b335ec695d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNDefence-D81"/>
-    <rdf:rest rdf:nodeID="N1677acd41a4e4cc382fb9413184bebac"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ResultNotice">
-    <rdfs:subClassOf rdf:nodeID="N92d77d888d1a478a8f5e3a4f028d0cea"/>
-    <rdfs:subClassOf rdf:nodeID="Nd4246d6749d54b9f814aecf8931c5290"/>
-    <rdfs:subClassOf rdf:nodeID="N47aea99075f945d9a1c06f05090e6fe9"/>
-    <rdfs:subClassOf rdf:nodeID="N4f68cd2f50644a25b39aa142365f754e"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToNoticeAwardInformation">
-    <rdfs:domain rdf:nodeID="N4d4142fe6dfa4d15a0d115483883e470"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne03a4a684276416a96379af966894446">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="Nca94af0c19b64bf9b578cbdd2706cff9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1d0b5e066857479e8b0c7cde7118b7bf">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice12"/>
-    <rdf:rest rdf:nodeID="Ne8a669f535424c35b029f147817f3343"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#CompletionNotice">
-    <rdfs:subClassOf rdf:nodeID="Ncd89f70ab705476b8cf03502573f5469"/>
-    <rdfs:subClassOf rdf:nodeID="Nf3b419f969ec41fe98cba0ec0780c679"/>
-    <rdfs:subClassOf rdf:nodeID="Nd82e64f6706447e783cdf1317237eb8d"/>
-    <rdfs:subClassOf rdf:nodeID="N237043703dbc44b6a254c0b1b40b8729"/>
-    <rdfs:subClassOf rdf:nodeID="Ne7365baa72f0490f950ad9d33407a294"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N13ae406961444385b25720b6db616790">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice39"/>
-    <rdf:rest rdf:nodeID="Nba88c54888814ad19cd6df8ad38e54d7"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N644c27a0aa65477ea29987499fe63651">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D25"/>
-    <rdf:rest rdf:nodeID="Nbc751d1ac6ee42b6b03ac797550c3059"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N46f9d8d787cc485b8fc218733863a6ea">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D23"/>
-    <rdf:rest rdf:nodeID="N27c759f75933470ebecd3dd1a5724255"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nda539a0d94e54c57bfb6d8763a860077">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
-    <rdf:rest rdf:nodeID="Naaf8c856c553486ab49a3cff0c7517cb"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N6226f5d23a3d436fa27910f637b5a737">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:nodeID="N1a3f1ba8bf2d495fb206fdf780d55778"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5e0f921518a74f779387744b21a91df7">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd2ddfd82b32f4480a287a155fee6b4aa">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ConcessionNotice-D23"/>
-    <rdf:rest rdf:nodeID="N0b5b8169594e483aa82c2ef184aeb0f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5a39942d5c56423194c1dd9793cb047c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice6"/>
-    <rdf:rest rdf:nodeID="Nfa70f207b8d040cdbb9bcb3a8cf9f659"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N42d0ebee1e2e415c9a7117d12735fa2e">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D25"/>
-    <rdf:rest rdf:nodeID="Na0834b1f7ed241e6983f6f21af3acf70"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4d4142fe6dfa4d15a0d115483883e470">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Nf78b780702fa46cb8a202fd6610ce5bd"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N944f40f497b347fa874b5379087eb090">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8d01602fee3b42e0b46f962104ea32a8">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="Nc34c995f9d5644cbb82462c1e3b5a95d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na97d7e6567f94d6ab33edad067b675cf">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice10"/>
-    <rdf:rest rdf:nodeID="Na6b0e460ae2042c794cbdaf0a6b394db"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1677acd41a4e4cc382fb9413184bebac">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocial-D25"/>
-    <rdf:rest rdf:nodeID="N349e870c43ea46d3ace38a8c940e82dd"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1666759e8178465db03eb8100ebfe19d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice35"/>
-    <rdf:rest rdf:nodeID="N13ae406961444385b25720b6db616790"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0c6f574587074494a72f7453869d7b09">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#describesResultNotice"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nabea6c982b9b4e06801e06d94cd97ac3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N3d8237beca384d48be95a1ac933d7298"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nda078c38e2814e4a9958b860a3e8ae45">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice37"/>
-    <rdf:rest rdf:nodeID="N5a39942d5c56423194c1dd9793cb047c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N10fe26fffbec4a879fcd48393018aeb3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N4fc53f280b3f4907bdc986615a1245d6"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N671e0cd16e3142d2b0e0b1496450ada6">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice11"/>
-    <rdf:rest rdf:nodeID="N8ebb9e8a213e41e087a50a1815a0be76"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncd89f70ab705476b8cf03502573f5469">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesCompletionOfContract"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N84b91abcd7024601a24f0eccd7ed1851">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N80514bf1fe3041ec8f741028eb7ae0cd">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N534267ea10c24b689521e2f3f0c16402">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N0a1687bd110a4619ad05a8a0b17b64ad"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf80aea302d724c98a4473b7a8180b05e">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D25"/>
-    <rdf:rest rdf:nodeID="Nd873d45c80b44f07a11eb3148e67d289"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1b686aaf9be7476abbe56bf81fc57c9f">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Ne62b8bb9815349eb9cf381fc9fe2b62e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na8175382dacc4a84b1dca257db76784c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice12"/>
-    <rdf:rest rdf:nodeID="Nfda07abbb84b423e95b8487152f2adce"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne62b8bb9815349eb9cf381fc9fe2b62e">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="N770e2e78a4a54ceab6298a42f7263c30"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N21c6e050aa894a6eaed13ea27eaf2947">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice28"/>
-    <rdf:rest rdf:nodeID="Nda078c38e2814e4a9958b860a3e8ae45"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na0834b1f7ed241e6983f6f21af3acf70">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocial-D25"/>
-    <rdf:rest rdf:nodeID="N14aeceaf81af4ea28d3174f2db6863df"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesReviewObject">
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#ReviewObject"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N02f69c08096946e78e79c9ff3a00e45d">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N530a2abf3de6427e9be2a56ea27f1c85"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N5724560cd87647388afdbba1a3e6e6f3">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N534896c09e6e44688a5b4e1de8e438e4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7e1003973d844f538ee1777f797a86be">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N4f3a9c7c6371460a9b34329be0300600"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8a12b824092e4f2aa079b12614aaef3f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocial-D25"/>
-    <rdf:rest rdf:nodeID="N4432d0fd9ad74e29b69898c3d97d8a93"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N29392c424d6f4c9dbf9cf22d3bdc8fc5">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QS-D25"/>
-    <rdf:rest rdf:nodeID="N574965ed6dc546ffac55b665128d3dcc"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLot">
-    <rdfs:domain rdf:nodeID="Na397d6c7be6945b9a91515dd16b4f8a2"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Lot"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd504cd32d94b47808925abea6692416c">
+  <rdf:Description rdf:nodeID="N62bc48416d4e4ea0bdb5dd721eb7c714">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToNoticeAwardInformation"/>
     <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf3b419f969ec41fe98cba0ec0780c679">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
-    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N737357735b7845779799508a49583c60">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice5"/>
-    <rdf:rest rdf:nodeID="N2878d66766a3493a9554b210f4d04753"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Naaf8c856c553486ab49a3cff0c7517cb">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PreMarketConsultationNotice"/>
-    <rdf:rest rdf:nodeID="N713987825f8146969c2f960efb24840d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne148e76c025e4dc49d7d5516057a6b47">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D24"/>
-    <rdf:rest rdf:nodeID="Nc43284bbdbd64b2c8e4b3c64ac869575"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1ed6251379a447aca2dc3fed17c45f44">
+  <rdf:Description rdf:nodeID="Nb0ac88ec585b43908e5ef05e9a95b130">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="Nd0f99cd89e1842f69b6167825d5306a8"/>
+    <rdf:rest rdf:nodeID="N954a0680959149b9bf43e913a777948e"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesPlannedProcurementPart">
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#PlannedProcurementPart"/>
+  <rdf:Description rdf:nodeID="N35982fe9bf1e465cb3d7bc9d07b5dd44">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice31"/>
+    <rdf:rest rdf:nodeID="Nd369b5d0756440d296a4fc9cab3ee8dd"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N574965ed6dc546ffac55b665128d3dcc">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice-D25"/>
-    <rdf:rest rdf:nodeID="Nda4f24e855d143a4aae40dc40d119faa"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N58a2bcce1ccd41e0b2f707c01067c54e">
+  <rdf:Description rdf:nodeID="N0d6e2cef90ce4b15baab65d3f2e3ba6c">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ConcessionAwardNotice-D23"/>
-    <rdf:rest rdf:nodeID="Nd2ddfd82b32f4480a287a155fee6b4aa"/>
+    <rdf:rest rdf:nodeID="N7d04151de8d74eeaac372aefeb2e477c"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc3852f3acc994a328f180f2d93647bd8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N503429e77eae4c20b737086b89f94a44"/>
+  <rdf:Description rdf:nodeID="N405a9295c5b544e6a0d17b44c0f0b1de">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice16"/>
+    <rdf:rest rdf:nodeID="N24709f6f85c1429f890b160266f1f5a8"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N938fcd06690a448384c86356fa3d9093">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N9b7ea92284bb46aaac47954e588050c6"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne8d3f313150b46ec8baa90ad20b1b487">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="N84b91abcd7024601a24f0eccd7ed1851"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N616d7b69435f4266a33641c6fdee8dd5">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice33"/>
+  <rdf:Description rdf:nodeID="N373b7ea7d1f84229ada394c8af5a7e11">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#describesDirectAwardPrenotificationNotice">
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+  <rdf:Description rdf:nodeID="N6c93e7b5329e448cb6bd0ceb1a771348">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N42c17fe8b70443e4b460c0e2f8b8d162"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N4df4775b1c2948c0ae9d66c10c62b7cd">
+  <rdf:Description rdf:nodeID="N4f4eb91e6dae4157829f072c1c99247f">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesLot"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesRole"/>
     <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N27d7833f6de04506accaad06c1c9154f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D81"/>
-    <rdf:rest rdf:nodeID="Nf5c91e5ba1aa48c3839ea076dbc16eab"/>
+  <rdf:Description rdf:nodeID="Nae45fce2a8c04b95981b93740576f47d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesProcedure"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N64dafccbc14444c480a5a139859c87ca">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice26"/>
-    <rdf:rest rdf:nodeID="N0fbef017962c49d69b311da4a61e1068"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8ebb9e8a213e41e087a50a1815a0be76">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice10"/>
+  <rdf:Description rdf:nodeID="N31af309e68f948e2b8ec1f8934c1d5a8">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice8"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N563452b7f04042d78c3e05c2da89bec1">
+  <rdf:Description rdf:nodeID="Nbb34de0ec74a48249fabf09c5a46c146">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesNoticeAwardInformation"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb93824be5164452f867aa5aed88bb62c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocial-D25"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf9be799213474dff84bd6802ca9c2301">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D23"/>
+    <rdf:rest rdf:nodeID="N3ecf7b942ca64d07b374371b761ca5a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc57f99e6ec53480b8dd60fa2006bbe04">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D81"/>
+    <rdf:rest rdf:nodeID="Nf9be799213474dff84bd6802ca9c2301"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na0d2369f68ca4ad28a4d73829f845a76">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice6"/>
+    <rdf:rest rdf:nodeID="N2b27f4c8568c4b93be361a4205bb46d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndd6c987ccd0d48c5bcd365fa5502d25c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N5a7315a5331f4787818de7de6e0a3506"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1ed63ef6675348e69ce34ddbc95a6c2c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice30"/>
+    <rdf:rest rdf:nodeID="Nb4d61d7d5bd24506aa0fc565c00b83ca"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na1df3349b8874d1886212dbd724664c6">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice28"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6099d13451c462ca1490a0df3710d92">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice"/>
+    <rdf:rest rdf:nodeID="N79cbe95557c74a2f8af34c5f0a5cf400"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#CompetitionNotice">
+    <rdfs:subClassOf rdf:nodeID="N3039355f00ca49f5a001ea84eea8b7fb"/>
+    <rdfs:subClassOf rdf:nodeID="N2d945cde25114571a75b87aa7442207e"/>
+    <rdfs:subClassOf rdf:nodeID="Nae45fce2a8c04b95981b93740576f47d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ecdfca82fdb45189ef8d80344e246c8">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice30"/>
+    <rdf:rest rdf:nodeID="N33d593f0bba14c4b8b3ffd581bad168f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33d593f0bba14c4b8b3ffd581bad168f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice32"/>
+    <rdf:rest rdf:nodeID="N751bf6df8205482e9aebe8e168c01bf4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8bb12488e4f34d3189e0810ac61f1ff0">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="Nccc244bd633249de9d7dea6c78532638"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0fac028e2f34e72832eb1080c44d84e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnlyNotice"/>
+    <rdf:rest rdf:nodeID="N4b4171b1aae9438aaae77e7e4f8119dd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc32592bbc1d145b59ea68cf90f025de1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice29"/>
+    <rdf:rest rdf:nodeID="N59ab0e601a914874b6ae58d1735e0a91"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95bb2acf3ba447c59c8f20cc4da5b05d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Ndef47c8e72af4aae8a9d2ab5f656251a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24709f6f85c1429f890b160266f1f5a8">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice19"/>
+    <rdf:rest rdf:nodeID="N505a563109214ac093eff59798c6b95f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf6e9933485c342de88422b7eebae642c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="Nd70568fec8f44b1585e364938a475ce1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N96664a4c9de344bf94ce31c03293d4ca">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesCompletionOfContract"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d650f5475b7457eb84f3c304107547a">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D25"/>
+    <rdf:rest rdf:nodeID="N1214e2d6628f425cb886af7739c29187"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne870ba9f935340b3b738a517755ab0b0">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice24"/>
+    <rdf:rest rdf:nodeID="N18194948b9cd4f669299862601c8674d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na3276ac4c8054eac8d822fa110bfbb07">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N61ab963a2d3c450b95fba41cd964c24f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7901342eacb8469483d121a04da8cb5b">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N44b385083c984cdd8ba942daecb78016">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
-    <rdf:rest rdf:nodeID="Nc535f6347a8c485a9360e6da4ba2caa3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2f9f876324994233af55b16a76637673">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice33"/>
-    <rdf:rest rdf:nodeID="N8a12b824092e4f2aa079b12614aaef3f"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#ContractModificationNotice">
-    <rdfs:subClassOf rdf:nodeID="N07af7fdfcf7e4a56ad3450817bd28084"/>
-    <rdfs:subClassOf rdf:nodeID="N24390899e4a64ff38f8bf140fc5bfdb6"/>
-    <rdfs:subClassOf rdf:nodeID="Nd504cd32d94b47808925abea6692416c"/>
-    <rdfs:subClassOf rdf:nodeID="Na0884967bb04457d88376a714c7e6eed"/>
-    <rdfs:subClassOf rdf:nodeID="N611f39ab2fe742e4a1091253b8f3a98a"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc17a15bda1ec408196dac32758f16ea1">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D25"/>
-    <rdf:rest rdf:nodeID="N404a9f4085b941cb97c1c643672c4953"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesContractAmendment">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#ContractAmendment"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8f926e03b903475aa62e9e1b6c22e850">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice38"/>
-    <rdf:rest rdf:nodeID="N46f9d8d787cc485b8fc218733863a6ea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne7365baa72f0490f950ad9d33407a294">
+  <rdf:Description rdf:nodeID="N310ce28e1a754b78b9e82d5a0ed672fd">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToProcedure"/>
     <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N2dc7f5cf86164bf8950930da9ce30676">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice25"/>
-    <rdf:rest rdf:nodeID="Nfd83a23d4d3a497abe72dfcd830720c4"/>
+  <rdf:Description rdf:nodeID="N7bd8b8eb16e64304b82583d128091674">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N249cdd86a5fd46cfa927c8b86541dd88"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd9319240248149c6ac0f7d59a37145f4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice17"/>
+  <rdf:Description rdf:nodeID="N4e0f1c71a28e484f87e43b6c522f4063">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice1"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb52f1b9e4bfb4dbe9ab582d55f73db9b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice30"/>
-    <rdf:rest rdf:nodeID="N1f9e752500504c7393e6f5ccaa12c994"/>
+  <rdf:Description rdf:nodeID="N64cdbc2fb71c45d08b3ffedbbcbb8f17">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfa413f46533e44af9a19b771f5228839">
+  <rdf:Description rdf:nodeID="N28d19364f2f240ebbe596a72a6e6f012">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice16"/>
+    <rdf:rest rdf:nodeID="Nb8c2a17873e64ab1b3b689fec3263262"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#CompletionNotice">
+    <rdfs:subClassOf rdf:nodeID="N96664a4c9de344bf94ce31c03293d4ca"/>
+    <rdfs:subClassOf rdf:nodeID="Ne3ed03446f9542b5b41dea4745cda9bb"/>
+    <rdfs:subClassOf rdf:nodeID="Nda6b258f1c054188a673d8be3644512a"/>
+    <rdfs:subClassOf rdf:nodeID="N74b688ee8a7040779bb4f3862d2d580f"/>
+    <rdfs:subClassOf rdf:nodeID="N4255d17948df4701bb517a3cc7e53c05"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5833468df599462bb7c3f91d8455d268">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocial-D25"/>
-    <rdf:rest rdf:nodeID="Na93f95d4193148029fe37974bf7ebf31"/>
+    <rdf:rest rdf:nodeID="Nf2aff1772b934e499a2ac2d1cff17c59"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na626b4dffe88441a850be2a4b6ea2268">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D25"/>
-    <rdf:rest rdf:nodeID="N6ec78ff014f34d20821d2356367df23a"/>
+  <rdf:Description rdf:nodeID="Nb4d61d7d5bd24506aa0fc565c00b83ca">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice32"/>
+    <rdf:rest rdf:nodeID="N69245c830ab34d3ba3b701a8999c1770"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N01298dbf198b4d278af3de56d089c4c0">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SocialAndOtherSpecificServices-D23"/>
-    <rdf:rest rdf:nodeID="Na04eb9f1c8ca4f638b4f7d16dc16a5c4"/>
+  <rdf:Description rdf:nodeID="Nab047d5e46f24f53b896964a5cdae1d0">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N600b7c5939b247d18b8ba9f99e147962"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N47708dcaa76146608e19e00b0c82241f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice14"/>
-    <rdf:rest rdf:nodeID="Nf50469f5e0de4b2f8a1de1447a0602ba"/>
+  <rdf:Description rdf:nodeID="N535b494f9d8c461b984c687bc94ec19f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D24"/>
+    <rdf:rest rdf:nodeID="Nc58f27eaae0b476180995abc6e4c7bd3"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLotGroupAwardInformation">
-    <rdfs:domain rdf:nodeID="N7e1003973d844f538ee1777f797a86be"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroupAwardInformation"/>
+  <rdf:Description rdf:nodeID="N2d945cde25114571a75b87aa7442207e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesRole"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd847067efe9c48659aecd0cbe05d2ade">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N094d902ffba14d08b0f3200711e7dedc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nda43a6f1aec84421bb2b1293157ecc35">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice26"/>
+    <rdf:rest rdf:nodeID="Nfb2204a47c8c40ebb5e5695058693ed7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37728f0ae0fb4723a005f62382e69583">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65d5c84543ad48e48956712ec7f81641">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNDefence-D81"/>
+    <rdf:rest rdf:nodeID="N5833468df599462bb7c3f91d8455d268"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N18194948b9cd4f669299862601c8674d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice35"/>
+    <rdf:rest rdf:nodeID="Nc78f460a86084a2ab1bbf52fc0c9fd3d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N26421b43fb1547aa8e56aa1512a6c4e2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D24"/>
+    <rdf:rest rdf:nodeID="Nca508a25bed14921807620e2d4813d55"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6085895bdb384ec087e0dfa41c9131a7">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANDefence-D81"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N68a0900f8d3b40efb35076cdf2fd3dcf">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice1"/>
+    <rdf:rest rdf:nodeID="N1ed63ef6675348e69ce34ddbc95a6c2c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3039355f00ca49f5a001ea84eea8b7fb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesLot"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61ab963a2d3c450b95fba41cd964c24f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne334a2de1c5f43bc84c2222d00b48c98">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice27"/>
+    <rdf:rest rdf:nodeID="Nd9118a014d6c43529b76128be9a80556"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na068fc143b2a4902b450923d81be56f5">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice2"/>
+    <rdf:rest rdf:nodeID="N12dfc491f88c4af39a61b4ed2bafffae"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0dc83a81d0f3493b9557bbf1b3e9f884">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocial-D25"/>
+    <rdf:rest rdf:nodeID="N69b1070f56124b3ab55cc66966e48020"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N249cdd86a5fd46cfa927c8b86541dd88">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice13"/>
+    <rdf:rest rdf:nodeID="N1d8ab48cfbb94a9a8ded5e0204a10298"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4610b0d2996b4320a98ec5694f03b160">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D25"/>
+    <rdf:rest rdf:nodeID="N46be8acb83b849599b3892d09baea24e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N283517c14503439d8d1ff49ead54a16f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice12"/>
+    <rdf:rest rdf:nodeID="N16ac5acd09fc47758ec6008896812ccc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N35bdc408ecff41c088d1a8ac3c07c29f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N1fe728732b4844d39e6e8313eef8ec0e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb3e1ad18863c4c2386bfee4ae8c36d72">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N7901342eacb8469483d121a04da8cb5b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7493dec841a5410a897542955f86b88a">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice20"/>
+    <rdf:rest rdf:nodeID="N0dc83a81d0f3493b9557bbf1b3e9f884"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69245c830ab34d3ba3b701a8999c1770">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice11"/>
+    <rdf:rest rdf:nodeID="Ne870ba9f935340b3b738a517755ab0b0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33ae90dee3c3472fa18eb22de2b1b1f1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D81"/>
+    <rdf:rest rdf:nodeID="N7048e0c03703435aa470fbf2435e4ec7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb5c218d790dd473a8e211c77ad277bce">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N373b7ea7d1f84229ada394c8af5a7e11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc58f27eaae0b476180995abc6e4c7bd3">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D25"/>
+    <rdf:rest rdf:nodeID="N26421b43fb1547aa8e56aa1512a6c4e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbaa92d9279e845e7b2741e4a1195852c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N41875483afe74609b4f84080cf376ffd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1fdf26674ef84d84a978498a6f9e9c5a">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice-D25"/>
+    <rdf:rest rdf:nodeID="N0833b32fcac4401a813403f62ade8888"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce05b48a839247e99599033b971d3f11">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D81"/>
+    <rdf:rest rdf:nodeID="N3e1d373335ac417495a42f25f47dc4a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85579f6dc9bc47058580c004c486a255">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice40"/>
+    <rdf:rest rdf:nodeID="N7dfe487c870641fabcb846598cc76720"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bad92471062418f95935228df4a2776">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D24"/>
+    <rdf:rest rdf:nodeID="Nd5a057f154ef4bb2b03569e933ec8acc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2aecee9fa7b44c1ea01a5530796a6d53">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:nodeID="N7f26a3a120554ef68b6b290adaca218d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4a045c1f2fd642f998d6484fb3931fc4">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice31"/>
+    <rdf:rest rdf:nodeID="N182d5699b9dc4f13b861b70a075f76aa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncf03cc9d152440da87cca3a3e98bcb4a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nff1635bfdd1842a8ab2ffac566874001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N59ab0e601a914874b6ae58d1735e0a91">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice5"/>
+    <rdf:rest rdf:nodeID="Na34f80018a08432298fe8638edeba2e9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToRole">
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AgentInRole"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N09ff36be7d4a46edb3ec26ceb6cc027d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3ed03446f9542b5b41dea4745cda9bb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c39fbab59d2424a9c3b85c509894daa">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice25"/>
+    <rdf:rest rdf:nodeID="N4c1dd5765d3448f8b0939f7b6839aee0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb8c2a17873e64ab1b3b689fec3263262">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice23"/>
+    <rdf:rest rdf:nodeID="Nb9b235cada854021bb0a5d2a4df24d33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLotGroup">
+    <rdfs:domain rdf:nodeID="N7c5b8bb286fa4dde88202853df797e2b"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9a4456775ff24eacaa385502d1c911c3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nb5c218d790dd473a8e211c77ad277bce"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41875483afe74609b4f84080cf376ffd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocialNotice"/>
+    <rdf:rest rdf:nodeID="N1356694e77584d1ca59609919a8c1da6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e4ab4dd729147c8bf61fb261cd781da">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N45e9494cf12949c086f31757c84a8c43"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f54d025129c4eea8b609609e51340dd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandard-D24"/>
+    <rdf:rest rdf:nodeID="N0bad92471062418f95935228df4a2776"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7d04151de8d74eeaac372aefeb2e477c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ConcessionNotice-D23"/>
+    <rdf:rest rdf:nodeID="N535b494f9d8c461b984c687bc94ec19f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne19e31ccdb9948d9b38d0917d36f2e89">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice37"/>
+    <rdf:rest rdf:nodeID="Nba6de843951148dd8ee23fccc71e52ad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na34f80018a08432298fe8638edeba2e9">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice21"/>
+    <rdf:rest rdf:nodeID="Nab1cfa51344148328bae943128da0d80"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N87f43bea6f69405194819ae83fd62582">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D23"/>
+    <rdf:rest rdf:nodeID="N8e33fa2332594248b4099ac0c30a6671"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToAwardDecision">
+    <rdfs:domain rdf:nodeID="Ndd6c987ccd0d48c5bcd365fa5502d25c"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AwardDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5700504857e04351be728ebe98162cc1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D24"/>
+    <rdf:rest rdf:nodeID="N4610b0d2996b4320a98ec5694f03b160"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a5343c6212349129d8ca58de4bec83e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nc76537cb16a6454fafe37d6b78b0ade5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2435c55bf0e24464aad4278284f8ea2f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Nab047d5e46f24f53b896964a5cdae1d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N025f413e08284d39bf73a612a0851ccd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
+    <rdf:rest rdf:nodeID="Ncfc4db84eb4448839ad6012f0936c602"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb91748e84c2b46169127164b6b0d7368">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N88da419242ec41288437e0d53ed65b9f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9b8206050d8440a7a6ecdb86f5ced0af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N9be02880d3904da28799d60d281e833e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3bd634982d8049c885d19636de6d9a6b">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice28"/>
+    <rdf:rest rdf:nodeID="Nba2e4cd5f6ab44ad95ed1efacebd4ecf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3fe7c94d3d38444d9bfcebc89b2ad6bc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesProcedure"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N237965c5c7b64f6d95203d770ce8d066">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N66165cd89c4a42b996e98a76d9ce40e1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ac76476e7584eb4bc3668cc0ba69fee">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice6"/>
+    <rdf:rest rdf:nodeID="N43a00c324a8d4811b2e5afd44e21c062"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesContract">
+    <rdfs:domain rdf:nodeID="N322bd9947e814b0a9557b56b3f3cc9d5"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Contract"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7dfe487c870641fabcb846598cc76720">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice9"/>
+    <rdf:rest rdf:nodeID="N6fc16a055d68448da68009f656b9c185"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e60aed7538a4a83abe72609eae536a3">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PreMarketConsultationNotice"/>
+    <rdf:rest rdf:nodeID="Nb9f0cc1a3da34d9b8a123bc6f8a7c366"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1299ef53b9ea493b94920c9a960c5b9c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToRole"/>
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N21840b53c58f464fa214020f14ba54ed">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice18"/>
+    <rdf:rest rdf:nodeID="N0363bd77db964de8aaa90ad0cd40749f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8ddcc1fa63584027a927f60367863fcc">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:nodeID="Ne764ca6a9046492183f59a0a4a30d854"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToContractToBeModified">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Contract"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesCompletionOfContract">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
     <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Contract"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne30ea29d0cb444798b998d9f91cdd964">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N75b5e22f0f304495bc96175b2287415b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4b96cead6bd34c2c95cea29c7142c902">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesNoticeAwardInformation"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd66fd4470ff445b88be0465f58a7e789">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="Nbe6f191e6ee44ecaac619575899bf0c1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N35a2c700346549dd89514eead039073d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice37"/>
-    <rdf:rest rdf:nodeID="N655443b47f9e4afab54eb642b423ab29"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfa70f207b8d040cdbb9bcb3a8cf9f659">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice36"/>
-    <rdf:rest rdf:nodeID="Nb65b0bb658b1485b84b4d9fe1b3621b2"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N96f27dd98d684699a295228fef373344">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
-    <rdf:rest rdf:nodeID="N1ed6251379a447aca2dc3fed17c45f44"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0bebb71001f14abd938b71e60f6552be">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice29"/>
-    <rdf:rest rdf:nodeID="N737357735b7845779799508a49583c60"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N349e870c43ea46d3ace38a8c940e82dd">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="N4f39b7e5920543cfbba0aa198b629479"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N530a2abf3de6427e9be2a56ea27f1c85">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice2"/>
-    <rdf:rest rdf:nodeID="Nc5c7e32c30f24f2abcc358754d1c1197"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb87a9e3b05724586ac26aaa79aede303">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#describesDirectAwardPrenotificationNotice"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N80b8523beae04adb89f20b12a96ab80b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D25"/>
-    <rdf:rest rdf:nodeID="N9b3f2d78a7a64786b990fe83b7d9bd77"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4f39b7e5920543cfbba0aa198b629479">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandard-D24"/>
-    <rdf:rest rdf:nodeID="N58a2bcce1ccd41e0b2f707c01067c54e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N237043703dbc44b6a254c0b1b40b8729">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToNoticeAwardInformation"/>
-    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToAwardDecision">
-    <rdfs:domain rdf:nodeID="N1b686aaf9be7476abbe56bf81fc57c9f"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AwardDecision"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc535f6347a8c485a9360e6da4ba2caa3">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nba88c54888814ad19cd6df8ad38e54d7">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice17"/>
-    <rdf:rest rdf:nodeID="Ndfb105d579a24611ae54977e75729ee9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3c3abcee8e994ec68a261a852f024901">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocial-D25"/>
-    <rdf:rest rdf:nodeID="Nd757aa43107f4f199ebe1e5b230b96c1"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0fbef017962c49d69b311da4a61e1068">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D25"/>
-    <rdf:rest rdf:nodeID="Nb9b970856d7948e8beab672a5a38d9ff"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N14aeceaf81af4ea28d3174f2db6863df">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="N610cc0c46a034b3e837b48afc62256a6"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb90d44f55f87490185db775ae8666807">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice4"/>
-    <rdf:rest rdf:nodeID="Nf96fe7d6fa9e4781bba98d2dd84c23cf"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na284e664cb024ea19fde9f270e25d5a4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice8"/>
-    <rdf:rest rdf:nodeID="N0a0936b3c2454ea8859cb7ece6448bec"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N90d646996e4242ea8c2fa8ada63ffafb">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice18"/>
-    <rdf:rest rdf:nodeID="Nd9319240248149c6ac0f7d59a37145f4"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na918446c765e48a68fafb031f1c0ab52">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice4"/>
-    <rdf:rest rdf:nodeID="N0df6fa089c7f495a86650b9646f303d6"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfd83a23d4d3a497abe72dfcd830720c4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice27"/>
-    <rdf:rest rdf:nodeID="N64dafccbc14444c480a5a139859c87ca"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N47bc61771ae84dc58b83e4142c6d49f4">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N842446ea808047579f08f99ded3abc5a"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfe28929b4e024949b89940ddc998baad">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Subcontract-D81"/>
-    <rdf:rest rdf:nodeID="Nd71f8d99c78343ebb8ded257378bfa6f"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncaf1330a254f41ef85c8d02167e77948">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Nfcd57a1d175f4b7aab7986bac8dc8574"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf818bc0840fa487b9adcc115b7a39877">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice39"/>
-    <rdf:rest rdf:nodeID="Nacd672d461344bd3ae780d877f346497"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLotGroup">
-    <rdfs:domain rdf:nodeID="Nf0c7534ae05043869ecedf1f4694f016"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroup"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice">
-    <rdfs:subClassOf rdf:nodeID="Nd5c1ef6a526e48cb8d3fa90ca5a079b0"/>
-    <rdfs:subClassOf rdf:nodeID="N9bec1f76508c4c0fa7c47d6eb3c67e67"/>
-    <rdfs:subClassOf rdf:nodeID="N4b96cead6bd34c2c95cea29c7142c902"/>
-    <rdfs:subClassOf rdf:nodeID="N47d82f765a4149b79d2378bd286c44fd"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd0d69357cb374655998831f41cb47c2c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice20"/>
-    <rdf:rest rdf:nodeID="Nfa413f46533e44af9a19b771f5228839"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0fd33e1792f642df8d9af4963cae484a">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice13"/>
-    <rdf:rest rdf:nodeID="Na8175382dacc4a84b1dca257db76784c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4bead9e04b88418ea8959099765e04d6">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
-    <rdf:rest rdf:nodeID="N89a34052918a41c294736ac3b0eb682b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N26438f8727534999b132a87e12c769c8">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N64c08b4816db479783208c05c37931f3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N89a34052918a41c294736ac3b0eb682b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N52d36f233c03432f84877ea9f97ecdee">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Ne03a4a684276416a96379af966894446"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne995823208094ff2b8363a88159930d5">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice14"/>
-    <rdf:rest rdf:nodeID="N171e1325d5b941e0b508098df2bc82e8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N27c759f75933470ebecd3dd1a5724255">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice40"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb9b970856d7948e8beab672a5a38d9ff">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice28"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9b3f2d78a7a64786b990fe83b7d9bd77">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D81"/>
-    <rdf:rest rdf:nodeID="N043a6a28870b42e69b7e35cf6308e381"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLot">
-    <rdfs:domain rdf:nodeID="N68455be97ea1480b93c70c2e4f86e144"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Lot"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ndfb105d579a24611ae54977e75729ee9">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice34"/>
-    <rdf:rest rdf:nodeID="Nde55f33b151242d7b6e18dc5c7c20dfc"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N043a6a28870b42e69b7e35cf6308e381">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D24"/>
-    <rdf:rest rdf:nodeID="Nfe28929b4e024949b89940ddc998baad"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N07af7fdfcf7e4a56ad3450817bd28084">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToContractToBeModified"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N781e0c25871d4d98b6cb7478d42afec4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice7"/>
-    <rdf:rest rdf:nodeID="N8220aeceab97475abe7c69a40e9b7686"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na69a7d32b6f6451780383fb726c33bd2">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandardNotice"/>
-    <rdf:rest rdf:nodeID="N951957ccdac044c2aa019e3c1f48a47c"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2ec13a99f2cf40c88b49154380ce1037">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N0c482ca32f804e7c8daee69367e154e0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc7d433b644774947a3df100bd5eaff8e">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice-D25"/>
-    <rdf:rest rdf:nodeID="N01298dbf198b4d278af3de56d089c4c0"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9bec1f76508c4c0fa7c47d6eb3c67e67">
+  <rdf:Description rdf:nodeID="N4d10d358c440405599b8a14e270bdacd">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
     <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesRole"/>
     <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N3b8f2b6b4d994420862775730abd1830">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N0fd33e1792f642df8d9af4963cae484a"/>
+  <rdf:Description rdf:nodeID="Nfb2204a47c8c40ebb5e5695058693ed7">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D25"/>
+    <rdf:rest rdf:nodeID="Na1df3349b8874d1886212dbd724664c6"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0a1687bd110a4619ad05a8a0b17b64ad">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocialNotice"/>
-    <rdf:rest rdf:nodeID="Na23caefa84ad41f38d6063436e2144be"/>
+  <rdf:Description rdf:nodeID="N2185e0a34e7542b8a856ecc9f889a928">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandardNotice"/>
+    <rdf:rest rdf:nodeID="Nd6099d13451c462ca1490a0df3710d92"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N63afad5922734ac485bca5bbcfc1ba99">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandard-D24"/>
-    <rdf:rest rdf:nodeID="N90d646996e4242ea8c2fa8ada63ffafb"/>
+  <rdf:Description rdf:nodeID="N73b336f6138e4fbea3b674854a5c2c3b">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice22"/>
+    <rdf:rest rdf:nodeID="Ne334a2de1c5f43bc84c2222d00b48c98"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesContract">
-    <rdfs:domain rdf:nodeID="N10fe26fffbec4a879fcd48393018aeb3"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Contract"/>
+  <rdf:Description rdf:nodeID="Nc78f460a86084a2ab1bbf52fc0c9fd3d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice39"/>
+    <rdf:rest rdf:nodeID="N624bbce1e4f1439db252ab13ac8c313f"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na0884967bb04457d88376a714c7e6eed">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToProcedure"/>
-    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc34c995f9d5644cbb82462c1e3b5a95d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfcd57a1d175f4b7aab7986bac8dc8574">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandard-D24"/>
-    <rdf:rest rdf:nodeID="N671e0cd16e3142d2b0e0b1496450ada6"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesRole">
-    <rdfs:domain rdf:nodeID="N149ef0ec3b3c46ce8ba86ada3b6f7b79"/>
-    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AgentInRole"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N16865232b7dc40b2a1d6799988bbb297">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Ne8d3f313150b46ec8baa90ad20b1b487"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N2f4a2a64666441b69cb49e54021efc9f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice31"/>
-    <rdf:rest rdf:nodeID="N297c65dfd1b44f7aa863ed4ffc180a4d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N86941f0773f64c9d9f60369651c584be">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice24"/>
-    <rdf:rest rdf:nodeID="N1666759e8178465db03eb8100ebfe19d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N0b4482cad66b4f3c917e610a7ca8bf8c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANDefence-D81"/>
-    <rdf:rest rdf:nodeID="N3c3abcee8e994ec68a261a852f024901"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#NoticeAwardInformation">
-    <rdfs:subClassOf rdf:nodeID="Nb87a9e3b05724586ac26aaa79aede303"/>
-    <rdfs:subClassOf rdf:nodeID="N0c6f574587074494a72f7453869d7b09"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N7f7450f8face4fde885a474780e90c96">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice9"/>
-    <rdf:rest rdf:nodeID="Nad3d0b08de8943bda08a7a58f3aa1a9a"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd757aa43107f4f199ebe1e5b230b96c1">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="Nd51e6903094c4a5dad1125a24f53765b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd71f8d99c78343ebb8ded257378bfa6f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D23"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N9975c7510ed24dd0b2c48bfce3bd9bda">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice18"/>
-    <rdf:rest rdf:nodeID="Nd5b4abe2e2d5468da081578e6e918bf9"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na7c0dc0f6c0544a68d7c09aef075bd00">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D23"/>
-    <rdf:rest rdf:nodeID="N799f55fc3a1045478fc0df1afa66a33a"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4432d0fd9ad74e29b69898c3d97d8a93">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice35"/>
-    <rdf:rest rdf:nodeID="Nb9c9f9acf4f94c7b947b21ef400590ea"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbc2be57d192242b5b18771825fb6c3eb">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINTimeLimitNotice"/>
-    <rdf:rest rdf:nodeID="Nf5061b9084b54abe8a20de3f4dd56feb"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N149ef0ec3b3c46ce8ba86ada3b6f7b79">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N96f27dd98d684699a295228fef373344"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N73a61c1ae6af49278b5a236cfedc201d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice30"/>
-    <rdf:rest rdf:nodeID="Nbfb1a05da771432a96bccea465989239"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8c6013d0506a4162a2671bf0a2785618">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
-    <rdf:rest rdf:nodeID="Nd66fd4470ff445b88be0465f58a7e789"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N593e091992f844a589f266dbd7255a67">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice16"/>
-    <rdf:rest rdf:nodeID="N844806f62669494fa5d93c2dcf75cb49"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na93f95d4193148029fe37974bf7ebf31">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice21"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N842446ea808047579f08f99ded3abc5a">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
-    <rdf:rest rdf:nodeID="N80514bf1fe3041ec8f741028eb7ae0cd"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N770e2e78a4a54ceab6298a42f7263c30">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N4fc53f280b3f4907bdc986615a1245d6">
+  <rdf:Description rdf:nodeID="Nd87b8bbe6c11472793cb3baa53f64370">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="N494cef93b99f4956bbbc2a8bffdfe3e3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc5c7e32c30f24f2abcc358754d1c1197">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D25"/>
-    <rdf:rest rdf:nodeID="N27d7833f6de04506accaad06c1c9154f"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N8a07e9eebc32403aa78a4b8244a9fb90">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice23"/>
-    <rdf:rest rdf:nodeID="Nb90d44f55f87490185db775ae8666807"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N467e53a7763c4de8a4ff79d50f5356a5">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice34"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0a0936b3c2454ea8859cb7ece6448bec">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice19"/>
-    <rdf:rest rdf:nodeID="N0bebb71001f14abd938b71e60f6552be"/>
+  <rdf:Description rdf:nodeID="Nff1635bfdd1842a8ab2ffac566874001">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:nodeID="N4b3dc8b7d5b9410d9a492c597c3e4574"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N5fd538a4d4c943d4953b484cf546db9c">
+  <rdf:Description rdf:nodeID="Ncd192366fc424da0b9a005926df89f4c">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="Nf2f9168bc7f4415c9ea9fef0b6d838ce"/>
+    <owl:members rdf:nodeID="N0a20a0b49cba408fa5266b93521dc1af"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesNoticeAwardInformation">
-    <rdfs:domain rdf:nodeID="N257069a7a9c843ebbbcd5830f18f6d34"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
+  <rdf:Description rdf:nodeID="N714c1df66c274fd88b271849717a2a12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N4a045c1f2fd642f998d6484fb3931fc4"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N64c08b4816db479783208c05c37931f3">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D24"/>
-    <rdf:rest rdf:nodeID="Nf818bc0840fa487b9adcc115b7a39877"/>
+  <rdf:Description rdf:nodeID="N1fe728732b4844d39e6e8313eef8ec0e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QS-D25"/>
+    <rdf:rest rdf:nodeID="N642876d7bbea4bb193167ab72d499fa2"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbc751d1ac6ee42b6b03ac797550c3059">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D24"/>
-    <rdf:rest rdf:nodeID="Na626b4dffe88441a850be2a4b6ea2268"/>
+  <rdf:Description rdf:nodeID="Nd9118a014d6c43529b76128be9a80556">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice18"/>
+    <rdf:rest rdf:nodeID="N29819bf155774f29868a86dbaa07c203"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N861a1444076c45a4ab2c53767eac0ce3">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice26"/>
-    <rdf:rest rdf:nodeID="Nfce3d932199147d5a5816a23dfb4cccb"/>
+  <rdf:Description rdf:nodeID="Nc426eb73751d4e5a941762370a716463">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SocialAndOtherSpecificServices-D24"/>
+    <rdf:rest rdf:nodeID="N37f09a89bf3740c39870acc8eea17479"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne85271a8aaf243679614d22183a93d1f">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D24"/>
-    <rdf:rest rdf:nodeID="N7baa5d9377824b7d90d967ceb68c2248"/>
+  <rdf:Description rdf:nodeID="Nffc4bca5b19f402b9cac18c35da1f08e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N71ce2837d4874420876d478c00aa03f4"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N3d8237beca384d48be95a1ac933d7298">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnlyNotice"/>
-    <rdf:rest rdf:nodeID="Na10c924182c1461890384854afc336fc"/>
+  <rdf:Description rdf:nodeID="N9377bfbec19b48508a63d57d9d0020a8">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocial-D25"/>
+    <rdf:rest rdf:nodeID="Nd16e6859fb964044bc3b1cc227b43b14"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf78b780702fa46cb8a202fd6610ce5bd">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="N3a82edf7cbee494c93d3fe6ffd6e7e66"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N635d0df25a1640c68cdc54613f7239c0">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice27"/>
-    <rdf:rest rdf:nodeID="N9975c7510ed24dd0b2c48bfce3bd9bda"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N503429e77eae4c20b737086b89f94a44">
+  <rdf:Description rdf:nodeID="Nf2aff1772b934e499a2ac2d1cff17c59">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="Nd0d69357cb374655998831f41cb47c2c"/>
+    <rdf:rest rdf:nodeID="N27dd838fd0ad49ca8b7972c01beae738"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#PlanningNotice">
-    <rdfs:subClassOf rdf:nodeID="Naeb52bd403f043c48bae1fc30224fec9"/>
+  <rdf:Description rdf:nodeID="N5d939cb07ebb4016b392e410cc33578e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice10"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToProcedure">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-    <rdfs:domain rdf:nodeID="N52d36f233c03432f84877ea9f97ecdee"/>
-    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Procedure"/>
+  <rdf:Description rdf:nodeID="N5deddaa8b59a4ff980d878f997b9e28c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINTimeLimitNotice"/>
+    <rdf:rest rdf:nodeID="N1b62f864cdb24164ac2f0c9b0c620227"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N297c65dfd1b44f7aa863ed4ffc180a4d">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandard-D24"/>
-    <rdf:rest rdf:nodeID="N73a61c1ae6af49278b5a236cfedc201d"/>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesReviewObject">
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#ReviewObject"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N20c1b360c9d54a2893ac682cfe4bd196">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice15"/>
-    <rdf:rest rdf:nodeID="N21c6e050aa894a6eaed13ea27eaf2947"/>
+  <rdf:Description rdf:nodeID="Nc7a221400db84012863fc8ade6045df3">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D25"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0c482ca32f804e7c8daee69367e154e0">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D81"/>
-    <rdf:rest rdf:nodeID="Na7c0dc0f6c0544a68d7c09aef075bd00"/>
+  <rdf:Description rdf:nodeID="N3e1d373335ac417495a42f25f47dc4a3">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QS-D25"/>
+    <rdf:rest rdf:nodeID="N1fdf26674ef84d84a978498a6f9e9c5a"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfce3d932199147d5a5816a23dfb4cccb">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice31"/>
-    <rdf:rest rdf:nodeID="Na284e664cb024ea19fde9f270e25d5a4"/>
+  <rdf:Description rdf:nodeID="N6fc16a055d68448da68009f656b9c185">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice20"/>
+    <rdf:rest rdf:nodeID="Ne6fae626dae4490a8c98df633fce831d"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na397d6c7be6945b9a91515dd16b4f8a2">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="Ndfdfbed51dea4b62922634710ba9a6fe"/>
+  <rdf:Description rdf:nodeID="N751bf6df8205482e9aebe8e168c01bf4">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice29"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N00a2bf56ff05442dac32d359f4bce0db">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice23"/>
-    <rdf:rest rdf:nodeID="N563452b7f04042d78c3e05c2da89bec1"/>
+  <rdf:Description rdf:nodeID="N250460d37d5f4abc940e1b8acfa20f56">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice38"/>
+    <rdf:rest rdf:nodeID="N30c0c4831b7f430ebc23528cdfeaf2e2"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd82e64f6706447e783cdf1317237eb8d">
+  <rdf:Description rdf:nodeID="Na586295c5d5e44b89e5e25c25019b872">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesReviewObject"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToLot"/>
     <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N0df6fa089c7f495a86650b9646f303d6">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice5"/>
-    <rdf:rest rdf:nodeID="Nf2a73c46125c4c18ad506bf42e673581"/>
+  <rdf:Description rdf:nodeID="N5a7315a5331f4787818de7de6e0a3506">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="N02f6bee138c346fa844d71886dfe40d2"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc43284bbdbd64b2c8e4b3c64ac869575">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D25"/>
-    <rdf:rest rdf:nodeID="N00a2bf56ff05442dac32d359f4bce0db"/>
+  <rdf:Description rdf:nodeID="Nfcdbaf90e4fd4c57be6efcfed73f8af2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D23"/>
+    <rdf:rest rdf:nodeID="Nc48a5998c88441d98e0ce0e3b1fe7c0f"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nca94af0c19b64bf9b578cbdd2706cff9">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:nodeID="N2dda4c7492ee4724acf4ea32f84adb3b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Na04eb9f1c8ca4f638b4f7d16dc16a5c4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SocialAndOtherSpecificServices-D24"/>
-    <rdf:rest rdf:nodeID="N80b8523beae04adb89f20b12a96ab80b"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc47100254c834e65a7962b84007c8b24">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice3"/>
-    <rdf:rest rdf:nodeID="N3ae17f8f175643d98b91b219bc8462c3"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfc907e820099486aa2d822c1c01e323b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
-    <rdf:rest rdf:nodeID="Nda539a0d94e54c57bfb6d8763a860077"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nc610931b989c4a05aaf51aae3418bb23">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINOnly-D24"/>
-    <rdf:rest rdf:nodeID="Nf80aea302d724c98a4473b7a8180b05e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N52acf3aad7c84ea0a718cf2cf2b8c79b">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N29392c424d6f4c9dbf9cf22d3bdc8fc5"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nfa2f4144975d422cb94b44180e06728d">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-    <owl:members rdf:nodeID="N8c6013d0506a4162a2671bf0a2785618"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncf7ba4160e4341d29d64c12635d6bff0">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocial-D25"/>
+  <rdf:Description rdf:nodeID="Na0d5f6bd5b4c4dd48a47628919463b6b">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SubcontractNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na5d9eb368e9c4858864973c41eddb1d5">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N44b385083c984cdd8ba942daecb78016"/>
+  <rdf:Description rdf:nodeID="N88da419242ec41288437e0d53ed65b9f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice4"/>
+    <rdf:rest rdf:nodeID="Nf9770325bee641ee8ea6ff2a5893a167"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ncd6bf24ba56147d2a7c52bf5f67d2307">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D24"/>
-    <rdf:rest rdf:nodeID="N781e0c25871d4d98b6cb7478d42afec4"/>
+  <rdf:Description rdf:nodeID="N340f49643d574a71869d7209ae42b7df">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#describesDirectAwardPrenotificationNotice"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nd0f99cd89e1842f69b6167825d5306a8">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:nodeID="N4e69486a4b654dd886460bd10a055c28"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf5c91e5ba1aa48c3839ea076dbc16eab">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice3"/>
-    <rdf:rest rdf:nodeID="Ne85271a8aaf243679614d22183a93d1f"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N844806f62669494fa5d93c2dcf75cb49">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice19"/>
-    <rdf:rest rdf:nodeID="N63afad5922734ac485bca5bbcfc1ba99"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N799f55fc3a1045478fc0df1afa66a33a">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D24"/>
-    <rdf:rest rdf:nodeID="N2dc7f5cf86164bf8950930da9ce30676"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nbfb1a05da771432a96bccea465989239">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice32"/>
-    <rdf:rest rdf:nodeID="N62e5462bdd5c480bb02710970e99bb1d"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N1a3f1ba8bf2d495fb206fdf780d55778">
+  <rdf:Description rdf:nodeID="Nb9f0cc1a3da34d9b8a123bc6f8a7c366">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf0470eb26fe54a609b452c4c05dbdff1">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestNotice"/>
-    <rdf:rest rdf:nodeID="Ne990e49c2ec147a1a20fbd4139afe250"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N171e1325d5b941e0b508098df2bc82e8">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice13"/>
-    <rdf:rest rdf:nodeID="N1d0b5e066857479e8b0c7cde7118b7bf"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N3853a4aa2a834b22a2591f66c7c12994">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N8d01602fee3b42e0b46f962104ea32a8"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nacd672d461344bd3ae780d877f346497">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D25"/>
-    <rdf:rest rdf:nodeID="N8f926e03b903475aa62e9e1b6c22e850"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="N53fa68f9917e42d1a2af37b160a43140">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QS-D25"/>
-    <rdf:rest rdf:nodeID="Nc7d433b644774947a3df100bd5eaff8e"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Ne5d33e22ad41484d961328f6cdfa462c">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="Nb9c9f9acf4f94c7b947b21ef400590ea">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice-D25"/>
-    <rdf:rest rdf:nodeID="N467e53a7763c4de8a4ff79d50f5356a5"/>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLotGroup">
+    <rdfs:domain rdf:nodeID="Nf812deda01ef4e21ad44bf2de5a9e857"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroup"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#describesResultNotice">
     <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
     <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N5c9432eb4b65424881d21ade1ea5b5d8">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANDefence-D81"/>
+  <rdf:Description rdf:nodeID="N950263699eaa4ce78cfa84a02d9a66ac">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandard-D24"/>
+    <rdf:rest rdf:nodeID="N65d5c84543ad48e48956712ec7f81641"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne764ca6a9046492183f59a0a4a30d854">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Nf96fe7d6fa9e4781bba98d2dd84c23cf">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice25"/>
-    <rdf:rest rdf:nodeID="Nc47100254c834e65a7962b84007c8b24"/>
+  <rdf:Description rdf:nodeID="Nb9ce22df9801494bbcd78219c83568b9">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice24"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Na540a2d1f3f5449991c1406d40970f06">
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLot">
+    <rdfs:domain rdf:nodeID="N0a5343c6212349129d8ca58de4bec83e"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Lot"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0833b32fcac4401a813403f62ade8888">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#SocialAndOtherSpecificServices-D23"/>
+    <rdf:rest rdf:nodeID="Nc426eb73751d4e5a941762370a716463"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8e33fa2332594248b4099ac0c30a6671">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D24"/>
+    <rdf:rest rdf:nodeID="N06335806ca0c4abcac2808150a58667c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2980555aaab546c08850bbece502cc12">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice33"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncfc4db84eb4448839ad6012f0936c602">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16ac5acd09fc47758ec6008896812ccc">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice-D25"/>
+    <rdf:rest rdf:nodeID="Nb93824be5164452f867aa5aed88bb62c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N182d5699b9dc4f13b861b70a075f76aa">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandard-D24"/>
+    <rdf:rest rdf:nodeID="N6ecdfca82fdb45189ef8d80344e246c8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N38401e1151de4921b45252a98c6fb20e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N82ef06183c7740908f6d0bf9247ffdb1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N954a0680959149b9bf43e913a777948e">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
-    <rdf:rest rdf:nodeID="Nbc0bcfdc119e46f1a0e267c9886e4b08"/>
+    <rdf:rest rdf:nodeID="Na3276ac4c8054eac8d822fa110bfbb07"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N257069a7a9c843ebbbcd5830f18f6d34">
+  <rdf:Description rdf:nodeID="Nccc244bd633249de9d7dea6c78532638">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N12d68b64f455498fbc843aaefa397306">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N16c00b8e9e734438ba86cf30f370fe67"/>
+    <owl:unionOf rdf:nodeID="N8bb12488e4f34d3189e0810ac61f1ff0"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N8220aeceab97475abe7c69a40e9b7686">
+  <rdf:Description rdf:nodeID="N7048e0c03703435aa470fbf2435e4ec7">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice3"/>
+    <rdf:rest rdf:nodeID="N4c7f6486ff894d62a7de4ac655bc0d5c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N84da42500c6d42199ba926fa027d617d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D24"/>
+    <rdf:rest rdf:nodeID="Ne0bef652322645f6be5cd6a206a4b80a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N66165cd89c4a42b996e98a76d9ce40e1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice14"/>
+    <rdf:rest rdf:nodeID="N76723b64222a4f2aa75bf07ef7a304e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4988395476274d90a24b0d18a253272c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice25"/>
+    <rdf:rest rdf:nodeID="N723035e863f54e76a362cb57d10ddcbd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N55c72a5b9c384e4cb626d669b07746bf">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
+    <rdf:rest rdf:nodeID="Nd87b8bbe6c11472793cb3baa53f64370"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74b688ee8a7040779bb4f3862d2d580f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToNoticeAwardInformation"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#describesDirectAwardPrenotificationNotice">
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#DirectAwardPrenotificationNotice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nab0606161026456daa69bf25bbaec130">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:nodeID="N09ff36be7d4a46edb3ec26ceb6cc027d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLotGroupAwardInformation">
+    <rdfs:domain rdf:nodeID="N12d68b64f455498fbc843aaefa397306"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroupAwardInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb798d035d0e545cbbc19805a5f374d0a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nc57f99e6ec53480b8dd60fa2006bbe04"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba6de843951148dd8ee23fccc71e52ad">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D25"/>
+    <rdf:rest rdf:nodeID="N5198e1166e2a43d5b11854965254102a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd369b5d0756440d296a4fc9cab3ee8dd">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice8"/>
+    <rdf:rest rdf:nodeID="N796b3269a6b046d0b6b26737da9af73e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0bef652322645f6be5cd6a206a4b80a">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Subcontract-D81"/>
+    <rdf:rest rdf:nodeID="Ndf7d16e3f24a4cb79b31316a9cde9cf7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9be02880d3904da28799d60d281e833e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCStandard-D24"/>
+    <rdf:rest rdf:nodeID="N2a81152c6d6c4660ad3f360d8fd12457"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na43acdbb84e24006b5fc877eb484613e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice15"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N1f9e752500504c7393e6f5ccaa12c994">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice32"/>
-    <rdf:rest rdf:nodeID="N3c3c35fa3e4c45b09e3949fa691472cc"/>
+  <rdf:Description rdf:nodeID="N1214e2d6628f425cb886af7739c29187">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice23"/>
+    <rdf:rest rdf:nodeID="Nb9ce22df9801494bbcd78219c83568b9"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N534896c09e6e44688a5b4e1de8e438e4">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice"/>
-    <rdf:rest rdf:nodeID="Na69a7d32b6f6451780383fb726c33bd2"/>
+  <rdf:Description rdf:nodeID="N29819bf155774f29868a86dbaa07c203">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice2"/>
+    <rdf:rest rdf:nodeID="N2980555aaab546c08850bbece502cc12"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N3a82edf7cbee494c93d3fe6ffd6e7e66">
+  <rdf:Description rdf:nodeID="N27dd838fd0ad49ca8b7972c01beae738">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandard-D24"/>
+    <rdf:rest rdf:nodeID="N0d6e2cef90ce4b15baab65d3f2e3ba6c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6e8e6d5f403e4e4a97fdbc8be92842ef">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice35"/>
+    <rdf:rest rdf:nodeID="N4d8a7ecd838c45b8a020452ff24e7a10"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0a20a0b49cba408fa5266b93521dc1af">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNSocialNotice-D25"/>
+    <rdf:rest rdf:nodeID="N7493dec841a5410a897542955f86b88a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#refersToLot">
+    <rdfs:domain rdf:nodeID="N415387cdc937472ebd643f1680e29804"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#Lot"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N796b3269a6b046d0b6b26737da9af73e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice19"/>
+    <rdf:rest rdf:nodeID="Nc32592bbc1d145b59ea68cf90f025de1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4e8eadd8071444648ff2aa87a3202e08">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
+    <rdf:rest rdf:nodeID="N8e60aed7538a4a83abe72609eae536a3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0363bd77db964de8aaa90ad0cd40749f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice17"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1d8ab48cfbb94a9a8ded5e0204a10298">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice12"/>
+    <rdf:rest rdf:nodeID="N85579f6dc9bc47058580c004c486a255"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N505a563109214ac093eff59798c6b95f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandard-D24"/>
+    <rdf:rest rdf:nodeID="N21840b53c58f464fa214020f14ba54ed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ecf7b942ca64d07b374371b761ca5a3">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D24"/>
+    <rdf:rest rdf:nodeID="N0c39fbab59d2424a9c3b85c509894daa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N30c0c4831b7f430ebc23528cdfeaf2e2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice15"/>
+    <rdf:rest rdf:nodeID="N3bd634982d8049c885d19636de6d9a6b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1c97be474b1940a79bf247a3f0847ea2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANStandardNotice"/>
+    <rdf:rest rdf:nodeID="N2da21789568d438185c3a796ef614580"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1e3784d3e05d4bad9051f64959ee2790">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="Nab0606161026456daa69bf25bbaec130"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N600b7c5939b247d18b8ba9f99e147962">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ResultNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndef47c8e72af4aae8a9d2ab5f656251a">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D24"/>
+    <rdf:rest rdf:nodeID="Nfb216d9ab1104adcab61a776ba38e1f4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nba2e4cd5f6ab44ad95ed1efacebd4ecf">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice37"/>
+    <rdf:rest rdf:nodeID="N6ac76476e7584eb4bc3668cc0ba69fee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na01f3ad4c37445ff9a271aad9eb830d8">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice22"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N06335806ca0c4abcac2808150a58667c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D25"/>
+    <rdf:rest rdf:nodeID="N9377bfbec19b48508a63d57d9d0020a8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46428070c9ad4a07a1e35cbd36445ba4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N405a9295c5b544e6a0d17b44c0f0b1de"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N094d902ffba14d08b0f3200711e7dedc">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D25"/>
+    <rdf:rest rdf:nodeID="Nc247691c6d16462ba9eba98681590e67"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesPlannedProcurementPart">
+    <rdfs:domain rdf:resource="http://data.europa.eu/a4g/ontology#PlanningNotice"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#PlannedProcurementPart"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1b62f864cdb24164ac2f0c9b0c620227">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINDefence-D81"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N24fa5a5a29644cf8bdc11fc8ba922d5d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="N8ddcc1fa63584027a927f60367863fcc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc48a5998c88441d98e0ce0e3b1fe7c0f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice40"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc247691c6d16462ba9eba98681590e67">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice9"/>
+    <rdf:rest rdf:nodeID="N6946e16e432a46f3827041da4c393684"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37ef6a6bac46468c84a43457679ce701">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Na068fc143b2a4902b450923d81be56f5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N02f6bee138c346fa844d71886dfe40d2">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N9884e3687f30485982597a3afeaaa8a1">
+  <rdf:Description rdf:nodeID="Nf1231680f8c24d22a219825bcfdbc2c6">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice38"/>
+    <rdf:rest rdf:nodeID="Nfcdbaf90e4fd4c57be6efcfed73f8af2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5417cf7462db471bbc87f94b33d67628">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocial-D25"/>
+    <rdf:rest rdf:nodeID="N6e8e6d5f403e4e4a97fdbc8be92842ef"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne6fae626dae4490a8c98df633fce831d">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice26"/>
+    <rdf:rest rdf:nodeID="N35982fe9bf1e465cb3d7bc9d07b5dd44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb231ba4b0e764ecf8ef495700e0e1ec3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N93e2b37233544a6696619b646dc4d71c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N642876d7bbea4bb193167ab72d499fa2">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice-D25"/>
+    <rdf:rest rdf:nodeID="Na43acdbb84e24006b5fc877eb484613e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N406cadd2da15427086342f035f647610">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#announcesContractAmendment"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27e4ecec68d14f8e97adb7b91c6038b5">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesAwardDecision">
+    <rdfs:domain rdf:nodeID="N2435c55bf0e24464aad4278284f8ea2f"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#AwardDecision"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd5a057f154ef4bb2b03569e933ec8acc">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D25"/>
+    <rdf:rest rdf:nodeID="N5700504857e04351be728ebe98162cc1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#NoticeAwardInformation">
+    <rdfs:subClassOf rdf:nodeID="N340f49643d574a71869d7209ae42b7df"/>
+    <rdfs:subClassOf rdf:nodeID="N799913b2b9024cd49371c00decb50cc3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N46be8acb83b849599b3892d09baea24e">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfile-D24"/>
+    <rdf:rest rdf:nodeID="Ne38b536aeaa447ebbdb278ea912dd206"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36dd3a2505c044ad97298257a443aeb9">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice10"/>
+    <rdf:rest rdf:nodeID="N68a0900f8d3b40efb35076cdf2fd3dcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4b4171b1aae9438aaae77e7e4f8119dd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PINProfileNotice"/>
+    <rdf:rest rdf:nodeID="N5deddaa8b59a4ff980d878f997b9e28c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4d8a7ecd838c45b8a020452ff24e7a10">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice-D25"/>
+    <rdf:rest rdf:nodeID="N792059523d0c452cb826a44cc87b2703"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2da21789568d438185c3a796ef614580">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResultNotice"/>
+    <rdf:rest rdf:nodeID="N6085895bdb384ec087e0dfa41c9131a7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesLotGroupAwardInformation">
+    <rdfs:domain rdf:nodeID="N9a4456775ff24eacaa385502d1c911c3"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#LotGroupAwardInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N93e2b37233544a6696619b646dc4d71c">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
+    <rdf:rest rdf:nodeID="Nb0ac88ec585b43908e5ef05e9a95b130"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N545e88d2665e49de94137a3306c628f8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N617586e483634ea5bc38f91977279302"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N14130645fada4268b8b47ae7e591c576">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Modification-D25"/>
+    <rdf:rest rdf:nodeID="Nf1231680f8c24d22a219825bcfdbc2c6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a81152c6d6c4660ad3f360d8fd12457">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice11"/>
+    <rdf:rest rdf:nodeID="N5d939cb07ebb4016b392e410cc33578e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndf7d16e3f24a4cb79b31316a9cde9cf7">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D23"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N42c17fe8b70443e4b460c0e2f8b8d162">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice33"/>
+    <rdf:rest rdf:nodeID="N5417cf7462db471bbc87f94b33d67628"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd70568fec8f44b1585e364938a475ce1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#ContractModificationNotice"/>
+    <rdf:rest rdf:nodeID="Na6cf8db295a942b0a7464cebb8b9bb26"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37f09a89bf3740c39870acc8eea17479">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#VEAT-D25"/>
+    <rdf:rest rdf:nodeID="N1793dde224604901b6793dd79e7795fe"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N013f10d066d845b49a09a5362409ae09">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice7"/>
+    <rdf:rest rdf:nodeID="N36dd3a2505c044ad97298257a443aeb9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf4e22fff02f244528994697f477934cd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
+    <rdf:rest rdf:nodeID="N27e4ecec68d14f8e97adb7b91c6038b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N82ef06183c7740908f6d0bf9247ffdb1">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompetitionNotice"/>
+    <rdf:rest rdf:nodeID="Nf6e9933485c342de88422b7eebae642c"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69b1070f56124b3ab55cc66966e48020">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice21"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd0bfb6cb144d460a99f3057aff3cf7a7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToProcedure"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79cbe95557c74a2f8af34c5f0a5cf400">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#QSNotice"/>
+    <rdf:rest rdf:nodeID="N6b127da0d921430ebec3cab27d69103e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf9770325bee641ee8ea6ff2a5893a167">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice5"/>
+    <rdf:rest rdf:nodeID="Na0d2369f68ca4ad28a4d73829f845a76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N71ce2837d4874420876d478c00aa03f4">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice36"/>
+    <rdf:rest rdf:nodeID="Ne19e31ccdb9948d9b38d0917d36f2e89"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb216d9ab1104adcab61a776ba38e1f4">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice39"/>
+    <rdf:rest rdf:nodeID="N14130645fada4268b8b47ae7e591c576"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#PlanningNotice">
+    <rdfs:subClassOf rdf:nodeID="N4d10d358c440405599b8a14e270bdacd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N81f43d3cb7814216bfb36e59e611820a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Ne0fac028e2f34e72832eb1080c44d84e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/a4g/ontology#announcesNoticeAwardInformation">
+    <rdfs:domain rdf:nodeID="Ncf03cc9d152440da87cca3a3e98bcb4a"/>
+    <rdfs:range rdf:resource="http://data.europa.eu/a4g/ontology#NoticeAwardInformation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd16e6859fb964044bc3b1cc227b43b14">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-CFCSocialNotice-D25"/>
+    <rdf:rest rdf:nodeID="N1f54d025129c4eea8b609609e51340dd"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43a00c324a8d4811b2e5afd44e21c062">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice36"/>
+    <rdf:rest rdf:nodeID="N28d19364f2f240ebbe596a72a6e6f012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N799913b2b9024cd49371c00decb50cc3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#describesResultNotice"/>
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc860a36f3a194f3a9e0a092d783e3501">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContest-D24"/>
+    <rdf:rest rdf:nodeID="N5d650f5475b7457eb84f3c304107547a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N77708613891a4f5a9c1c6babc6367288">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice7"/>
+    <rdf:rest rdf:nodeID="N31af309e68f948e2b8ec1f8934c1d5a8"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N90f56bb366494bac930e1975fe00bbe1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nc860a36f3a194f3a9e0a092d783e3501"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N624bbce1e4f1439db252ab13ac8c313f">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice17"/>
+    <rdf:rest rdf:nodeID="N76c64c438581497ca697508e20d1ffa7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4255d17948df4701bb517a3cc7e53c05">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://data.europa.eu/a4g/ontology#refersToProcedure"/>
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0ff787c6372b4b82b2657fbf92b1f5ce">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N55c72a5b9c384e4cb626d669b07746bf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5198e1166e2a43d5b11854965254102a">
     <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#DesignContestResult-D24"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N68455be97ea1480b93c70c2e4f86e144">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:unionOf rdf:nodeID="N4bead9e04b88418ea8959099765e04d6"/>
+  <rdf:Description rdf:nodeID="N617586e483634ea5bc38f91977279302">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANDefence-D81"/>
+    <rdf:rest rdf:nodeID="Na7dc55b985ad4173bd78af257278bd5c"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N280cfc544bcd4881a7babafcaf63ad3b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#PIN-RTL-D25"/>
-    <rdf:rest rdf:nodeID="Nc610931b989c4a05aaf51aae3418bb23"/>
+  <rdf:Description rdf:nodeID="N17e33e8e4cdc43deb0fe3959de05e497">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CANSocialNotice-D25"/>
+    <rdf:rest rdf:nodeID="N950263699eaa4ce78cfa84a02d9a66ac"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N75b5e22f0f304495bc96175b2287415b">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Subcontract-D81"/>
-    <rdf:rest rdf:nodeID="N9fd2a9a00959410cb19021261a8ead67"/>
+  <rdf:Description rdf:nodeID="N1356694e77584d1ca59609919a8c1da6">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CNStandardNotice"/>
+    <rdf:rest rdf:nodeID="N2185e0a34e7542b8a856ecc9f889a928"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="N7baa5d9377824b7d90d967ceb68c2248">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice1"/>
-    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  <rdf:Description rdf:nodeID="N76c64c438581497ca697508e20d1ffa7">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice34"/>
+    <rdf:rest rdf:nodeID="N250460d37d5f4abc940e1b8acfa20f56"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="Ndfdfbed51dea4b62922634710ba9a6fe">
-    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#CompletionNotice"/>
-    <rdf:rest rdf:nodeID="N6226f5d23a3d436fa27910f637b5a737"/>
+  <rdf:Description rdf:nodeID="N723035e863f54e76a362cb57d10ddcbd">
+    <rdf:first rdf:resource="http://data.europa.eu/a4g/ontology#Notice3"/>
+    <rdf:rest rdf:nodeID="N73b336f6138e4fbea3b674854a5c2c3b"/>
   </rdf:Description>
 </rdf:RDF>
